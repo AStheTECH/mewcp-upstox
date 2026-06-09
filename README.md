@@ -1,2 +1,2 @@
-# mewcp-upstocks
-mewcp Upstocks stateless MCP server 
+# mewcp-upstox
+mewcp Upstox stateless MCP server 
