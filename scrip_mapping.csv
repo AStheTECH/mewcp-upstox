@@ -1,0 +1,2052 @@
+stock_id,symbol,company_name
+1,INE144J01027,20 Microns Limited
+2,INE253B01015,21st Century Management Services Limited
+3,INE466L01038,360 ONE WAM LIMITED
+4,INE748C01038,3i Infotech Limited
+5,INE470A01017,3M India Limited
+6,INE105C01023,3P Land Holdings Limited
+7,INE618L01018,5Paisa Capital Limited
+8,INE111B01023,63 moons technologies limited
+9,INE619I01012,A2Z Infra Engineering Limited
+10,INE0D0U01013,AAA Technologies Limited
+11,INE883F01010,Aadhar Housing Finance Limited
+12,INE087Z01024,Aakash Exploration Services Limited
+13,INE198H01019,Aarey Drugs & Pharmaceuticals Limited
+14,INE721Z01010,Aaron Industries Limited
+15,INE01C001026,Aartech Solonics Limited
+16,INE767A01016,Aarti Drugs Limited
+17,INE769A01020,Aarti Industries Limited
+18,INE0LRU01027,Aarti Pharmalabs Limited
+19,INE09EO01013,Aarti Surfactants Limited
+20,INE273D01019,Aarvee Denims & Exports Limited
+21,INE754X01016,Aarvi Encon Limited
+22,INE216P01012,Aavas Financiers Limited
+23,INE421A01028,Aban Offshore Limited
+24,INE117A01022,ABB India Limited
+25,INE358A01014,Abbott India Limited
+26,INE674K01013,Aditya Birla Capital Limited
+27,INE552Z01027,Allied Blenders and Distillers Limited
+28,INE647O01011,Aditya Birla Fashion and Retail Limited
+29,INE251C01025,ABM International Limited
+30,INE404A01024,Aditya Birla Sun Life AMC Limited
+31,INE012A01025,ACC Limited
+32,INE793A01012,Accelya Solutions India Limited
+33,INE648Z01023,Accuracy Shipping Limited
+34,INE731H01025,Action Construction Equipment Limited
+35,INE543V01017,Ace Integrated Solutions Limited
+36,INE128X01021,Archean Chemical Industries Limited
+37,INE666E01020,Andhra Cements Limited
+38,INE152B01027,Allcargo Gati Limited
+39,INE931S01010,Adani Energy Solutions Limited
+40,INE423A01024,Adani Enterprises Limited
+41,INE364U01010,Adani Green Energy Limited
+42,INE742F01042,Adani Ports and Special Economic Zone Limited
+43,INE814H01011,Adani Power Limited
+44,INE982B01027,ADF Foods Limited
+45,INE0CHO01012,Archidply Decor Limited
+46,INE045A01017,Ador Welding Limited
+47,INE737B01033,Adroit Infotech Limited
+48,INE102I01027,Allied Digital Services Limited
+49,INE199C01026,Advani Hotels & Resorts (India) Limited
+50,INE837H01020,Advanced Enzyme Technologies Limited
+51,INE208C01025,Aegis Logistics Limited
+52,INE024001021,Aeroflex Industries Limited
+53,INE0BWX01014,Aether Industries Limited
+54,INE00WC01027,Affle (India) Limited
+55,INE916Y01019,Akme Fintrade (India) Limited
+56,INE204E01012,Agarwal Industrial Corporation Limited
+57,INE415A01038,AGI Greenpac Limited
+58,INE976R01017,Agi Infra Limited
+59,INE449G01018,Agri-Tech (India) Limited
+60,INE740V01019,Agro Phos India Limited
+61,INE583L01014,AGS Transact Technologies Limited
+62,INE00ZE01026,Abans Holdings Limited
+63,INE00PV01013,Ahlada Engineers Limited
+64,INE926K01017,Asian Hotels (East) Limited
+65,INE758C01029,Ahluwalia Contracts (India) Limited
+66,INE212H01026,AIA Engineering Limited
+67,INE206F01022,Authum Investment & Infrastructure Limited
+68,INE645W01026,Airan Limited
+69,INE801L01010,Airo Lam limited
+70,INE031B01049,Ajanta Pharma Limited
+71,INE298G01027,Ajmera Realty & Infra India Limited
+72,INE820Y01021,Ajooni Biotech Limited
+73,INE737W01013,Akash Infra-Projects Limited
+74,INE00Y801016,Akg Exim Limited
+75,INE642Z01026,AKI India Limited
+76,INE256Z01025,Akshar Spintex Limited
+77,INE542B01011,AksharChem India Limited
+78,INE523B01011,Aksh Optifibre Limited
+79,INE09XN01023,Akums Drugs and Pharmaceuticals Limited
+80,INE133A01011,Akzo Nobel India Limited
+81,INE914E01040,Alankit Limited
+82,INE155C01010,Albert David Limited
+83,INE426A01027,Alembic Limited
+84,INE062D01024,Alicon Castalloy Limited
+85,INE773I01017,Alkali Metals Limited
+86,INE540L01014,Alkem Laboratories Limited
+87,INE150B01039,Alkyl Amines Chemicals Limited
+88,INE418H01029,Allcargo Logistics Limited
+89,INE835G01018,Alldigi Tech Limited
+90,INE326B01035,Almondz Global Securities Limited
+91,INE270A01029,Alok Industries Limited
+92,INE385I01010,Alpa Laboratories Limited
+93,INE137C01018,Alphageo (India) Limited
+94,INE093B01015,Alps Industries Limited
+95,INE371P01015,Amber Enterprises India Limited
+96,INE792B01012,Ambica Agarbathies & Aroma industries Limited
+97,INE540G01014,Ambika Cotton Mills Limited
+98,INE079A01024,Ambuja Cements Limited
+99,INE005I01014,AMD Industries Limited
+100,INE00FF01017,Ami Organics Limited
+101,INE606A01024,Amj Land Holdings Limited
+102,INE275D01022,Amines & Plasticizers Limited
+103,INE098F01031,Amrutanjan Health Care Limited
+104,INE463V01026,Anand Rathi Wealth Limited
+105,INE242C01024,Anant Raj Limited
+106,INE435A01051,ANDHRA PAPER LIMITED
+107,INE715B01021,The Andhra Sugars Limited
+108,INE732I01013,Angel One Limited
+109,INE087B01017,Anik Industries Limited
+110,INE106I01010,Ankit Metal & Power Limited
+111,INE02AR01019,Anmol India Limited
+112,INE436A01026,Ansal Properties & Infrastructure Limited
+113,INE414B01021,Antarctica Limited
+114,INE294Z01018,The Anup Engineering Limited
+115,INE930P01018,Anupam Rasayan India Limited
+116,INE372A01015,Apar Industries Limited
+117,INE071F01012,Anjani Portland Cement Limited
+118,INE116A01032,Apcotex Industries Limited
+119,INE346W01013,Apex Frozen Foods Limited
+120,INE702C01027,APL Apollo Tubes Limited
+121,INE901L01018,Alembic Pharmaceuticals Limited
+122,INE713T01028,Apollo Micro Systems Limited
+123,INE437A01024,Apollo Hospitals Enterprise Limited
+124,INE126J01016,Apollo Pipes Limited
+125,INE438A01022,Apollo Tyres Limited
+126,INE451F01024,Apollo Sindoori Hotels Limited
+127,INE266F01018,Aptech Limited
+128,INE852O01025,Aptus Value Housing Finance India Limited
+129,INE877I01016,Archidply Industries Limited
+130,INE731A01020,Archies Limited
+131,INE885A01032,Amara Raja Energy & Mobility Limited
+132,INE610C01014,Rajdarshan Industries Limited
+133,INE298I01015,Aries Agro Limited
+134,INE420B01036,Arihant Capital Markets Limited
+135,INE643K01018,Arihant Superstructures Limited
+136,INE0QRL01017,Arkade Developers Limited
+137,INE109C01017,Arman Financial Services Limited
+138,INE210C01013,Aro Granite Industries Limited
+139,INE570D01018,Arrow Greentech Limited
+140,INE968D01022,Arshiya Limited
+141,INE267I01010,ARSS Infrastructure Projects Limited
+142,INE025R01021,Artemis Medicare Services Limited
+143,INE738V01013,Art Nirman Limited
+144,INE006Z01016,Arvee Laboratories (India) Limited
+145,INE034A01011,Arvind Limited
+146,INE955V01021,Arvind Fashions Limited
+147,INE034S01021,Arvind SmartSpaces Limited
+148,INE439A01020,Asahi India Glass Limited
+149,INE228I01012,Asahi Songwon Colors Limited
+150,INE900C01027,Automotive Stampings and Assemblies Limited
+151,INE073G01016,Associated Alcohols & Breweries Ltd.
+152,INE348A01023,Ashapura Minechem Limited
+153,INE365D01021,Ashiana Housing Limited
+154,INE440A01010,Ashima Limited
+155,INE442H01029,Ashoka Buildcon Limited
+156,INE760Y01011,Ashoka Metcast Limited
+157,INE208A01029,Ashok Leyland Limited
+158,INE276G01015,Asian Energy Services Limited
+159,INE363A01022,Asian Hotels (North) Limited
+160,INE021A01026,Asian Paints Limited
+161,INE022I01019,Asian Granito India Limited
+162,INE491J01022,ASK Automotive Limited
+163,INE855F01042,Bartronics India Limited
+164,INE991I01015,Aspinwall and Company Limited
+165,INE563J01010,Astec LifeSciences Limited
+166,INE914M01019,Aster DM Healthcare Limited
+167,INE006I01046,Astral Limited
+168,INE386C01029,Astra Microwave Products Limited
+169,INE203A01020,AstraZeneca Pharma India Limited
+170,INE646X01014,Astron Paper & Board Mill Limited
+171,INE0ALR01029,Atal Realtech Limited
+172,INE09KD01013,Atam Valves Limited
+173,INE209A01019,Agro Tech Foods Limited
+174,INE399L01023,Adani Total Gas Limited
+175,INE0NN701020,Allcargo Terminals Limited
+176,INE285H01022,ATLANTAA LIMITED
+177,INE100A01010,Atul Limited
+178,INE951D01028,Atul Auto Limited
+179,INE949L01017,AU Small Finance Bank Limited
+180,INE132H01018,Aurionpro Solutions Limited
+181,INE406A01037,Aurobindo Pharma Limited
+182,INE898S01029,Aurum PropTech Limited
+183,INE218C01016,Ausom Enterprise Limited
+184,INE449A01011,Automotive Axles Limited
+185,INE718H01014,Autoline Industries Limited
+186,INE349W01017,Avadh Sugar & Energy Limited
+187,INE0LCL01028,Avalon Technologies Limited
+188,INE005B01027,Avantel Limited
+189,INE871C01038,Avanti Feeds Limited
+190,INE680Z01018,AVG Logistics Limited
+191,INE323B01024,Avonmore Capital & Management Services Limited
+192,INE652Z01017,AVRO INDIA LIMITED
+193,INE488D01021,AVT Natural Products Limited
+194,INE108V01019,Awfis Space Solutions Limited
+195,INE01BK01022,Antony Waste Handling Cell Limited
+196,INE699H01024,Adani Wilmar Limited
+197,INE238A01034,Axis Bank Limited
+198,INE555B01013,AXISCADES Technologies Limited
+199,INE02EZ01022,Axita Cotton Limited
+200,INE193B01039,AYM Syntex Limited
+201,INE02IJ01035,Azad Engineering Limited
+202,INE878I01022,Bafna Pharmaceuticals Limited
+203,INE116D01028,B.A.G Films and Media Limited
+204,INE020D01022,Baid Finserv Limited
+205,INE917I01010,Bajaj Auto Limited
+206,INE933K01021,Bajaj Consumer Care Limited
+207,INE193E01025,Bajaj Electricals Limited
+208,INE918I01026,Bajaj Finserv Limited
+209,INE411U01027,Bajaj Healthcare Limited
+210,INE377Y01014,Bajaj Housing Finance Limited
+211,INE306A01021,Bajaj Hindusthan Sugar Limited
+212,INE118A01012,Bajaj Holdings & Investment Limited
+213,INE0KQN01018,Bajel Projects Limited
+214,INE296A01024,Bajaj Finance Limited
+215,INE0S2G01011,Shree Tirupati Balajee Agro Trading Company Limited
+216,INE794B01026,Balaji Telefilms Limited
+217,INE050E01027,Balaji Amines Limited
+218,INE618N01022,BALAXI PHARMACEUTICALS LIMITED
+219,INE875R01011,Balkrishna Paper Mills Limited
+220,INE787D01026,Balkrishna Industries Limited
+221,INE164A01016,Balmer Lawrie & Company Limited
+222,INE083D01012,Bal Pharma Limited
+223,INE119A01028,Balrampur Chini Mills Limited
+224,INE011E01029,Balu Forge Industries Limited
+225,INE655B01011,Banaras Beads Limited
+226,INE459A01010,Bannari Amman Sugars Limited
+227,INE213C01025,Banco Products (I) Limited
+228,INE545U01014,Bandhan Bank Limited
+229,INE863I01016,Bang Overseas Limited
+230,INE862Y01015,Banka BioLoo Limited
+231,INE028A01039,Bank of Baroda
+232,INE084A01016,Bank of India
+233,INE0B9K01025,Bansal Wire Industries Limited
+234,INE629D01020,Banswara Syntex Limited
+235,INE382M01027,Barbeque Nation Hospitality Limited
+236,INE373A01013,BASF India Limited
+237,INE186H01022,Bannari Amman Spinning Mills Limited
+238,INE176A01028,Bata India Limited
+239,INE462A01022,Bayer Cropscience Limited
+240,INE464A01036,Bharat Bijlee Limited
+241,INE676A01027,Black Box Limited
+242,INE050A01025,Bombay Burmah Trading Corporation Limited
+243,INE01EE01011,B&B Triplewall Containers Limited
+244,INE412G01024,Bcl Industries Limited
+245,INE977Y01011,Brand Concepts Limited
+246,INE171Z01026,Bharat Dynamics Limited
+247,INE520H01022,Beardsell Limited
+248,INE495P01012,Mrs. Bectors Food Specialities Limited
+249,INE844K01012,Bedmutha Industries Limited
+250,INE263A01024,Bharat Electronics Limited
+251,INE258A01016,BEML Limited
+252,INE922A01025,Bhansali Engineering Polymers Limited
+253,INE463A01038,Berger Paints (I) Limited
+254,INE052T01013,Best Agrolife Limited
+255,INE878K01010,BF Investment Limited
+256,INE243D01012,BF Utilities Limited
+257,INE224M01013,Bharatiya Global Infomedia Limited
+258,INE661I01014,BGR Energy Systems Limited
+259,INE414D01027,Bhagiradha Chemicals & Industries Limited
+260,INE354C01027,Bhageria Industries Limited
+261,INE458B01036,Bhagyanagar India Limited
+262,INE474E01029,Bhandari Hosiery Exports Limited
+263,INE465A01025,Bharat Forge Limited
+264,INE561C01019,Bharat Gears Limited
+265,INE838B01013,Bharat Rasayan Limited
+266,INE316L01019,Bharat Wire Ropes Limited
+267,INE397D01024,Bharti Airtel Limited
+268,INE343G01021,Bharti Hexacom Limited
+269,INE257A01026,Bharat Heavy Electricals Limited
+270,INE412U01025,Bigbloc Construction Limited
+271,INE00E101023,Bikaji Foods International Limited
+272,INE828A01016,Bhartiya International Limited
+273,INE071A01013,Binani Industries Limited
+274,INE376G01013,Biocon Limited
+275,INE829A01014,Biofil Chemicals & Pharmaceuticals Limited
+276,INE800A01015,Birla Cable Limited
+277,INE340A01012,Birla Corporation Limited
+278,INE865C01022,Aditya Birla Money Limited
+279,INE831Q01016,Bkm Industries Limited
+280,INE0N7W01012,BEML Land Assets Limited
+281,INE791A01024,BLB Limited
+282,INE416D01022,Bliss GVS Pharma Limited
+283,INE350H01032,B. L. Kashyap and Sons Limited
+284,INE153T01027,BLS International Services Limited
+285,INE0NLT01010,BLS E-Services Limited
+286,INE657B01025,Blue Chip India Limited
+287,INE472B01011,Blue Coast Hotels Limited
+288,INE233B01017,Blue Dart Express Limited
+289,INE0KBH01020,Blue Jet Healthcare Limited
+290,INE472A01039,Blue Star Limited
+291,INE338D01028,Bodal Chemicals Limited
+292,INE802W01023,Bohra Industries Limited
+293,INE032A01023,Bombay Dyeing & Mfg Company Limited
+294,INE02PY01013,Borosil Limited
+295,INE666D01022,BOROSIL RENEWABLES LIMITED
+296,INE02L001032,Borosil Scientific Limited
+297,INE323A01026,Bosch Limited
+298,INE029A01011,Bharat Petroleum Corporation Limited
+299,INE110A01019,BPL Limited
+300,INE791I01019,Brigade Enterprises Limited
+301,INE216A01030,Britannia Industries Limited
+302,INE727S01012,Bharat Road Network Limited
+303,INE650L01011,Brooks Laboratories Limited
+304,INE118H01025,BSE Limited
+305,INE032Z01020,Bombay Super Hybrid Seeds Limited
+306,INE594B01012,BSL Limited
+307,INE836A01035,BIRLASOFT LIMITED
+308,INE0EEJ01023,Bodhi Tree Multimedia Limited
+309,INE817H01014,Burnpur Cement Limited
+310,INE295F01017,Butterfly Gandhimathi Appliances Limited
+311,INE139I01011,Barak Valley Cements Limited
+312,INE319B01014,The Byke Hospitality Ltd
+313,INE526B01014,California Software Company Limited
+314,INE052I01032,Camlin Fine Sciences Limited
+315,INE278Y01022,Campus Activewear Limited
+316,INE596I01012,Computer Age Management Services Limited
+317,INE476A01022,Canara Bank
+318,INE477A01020,Can Fin Homes Limited
+319,INE068L01024,Cantabil Retail India Limited
+320,INE264T01014,Capacit'e Infraprojects Limited
+321,INE646H01017,Capital Small Finance Bank Limited
+322,INE475E01026,Caplin Point Laboratories Limited
+323,INE707C01018,Capital Trust Limited
+324,INE120A01034,Carborundum Universal Limited
+325,INE521J01018,Career Point Limited
+326,INE752H01013,CARE Ratings Limited
+327,INE290S01011,Cartrade Tech Limited
+328,INE482D01024,CARYSIL LIMITED
+329,INE172A01027,Castrol India Limited
+330,INE429I01024,Consolidated Construction Consortium Limited
+331,INE652F01027,Country Club Hospitality & Holidays Limited
+332,INE421D01022,CCL Products (India) Limited
+333,INE736A01011,Central Depository Services (India) Limited
+334,INE482A01020,CEAT Limited
+335,INE0AG901020,Ceigall India Limited
+336,INE185H01016,Celebrity Fashions Limited
+337,INE0LMW01024,Cello World Limited
+338,INE485A01015,Century Enka Limited
+339,INE281A01026,Century Extrusions Limited
+340,INE483A01010,Central Bank of India
+341,INE660C01027,Centrum Capital Limited
+342,INE320B01020,Centum Electronics Limited
+343,INE348B01021,Century Plyboards (India) Limited
+344,INE055A01016,Century Textiles & Industries Limited
+345,INE739E01017,Cera Sanitaryware Limited
+346,INE345B01019,Cerebra Integrated Technologies Limited
+347,INE486A01021,CESC Limited
+348,INE180C01042,Capri Global Capital Limited
+349,INE067A01029,CG Power and Industrial Solutions Limited
+350,INE427F01016,Chalet Hotels Limited
+351,INE085A01013,Chambal Fertilizers & Chemicals Limited
+352,INE995D01025,Chembond Chemicals Ltd
+353,INE03YM01018,Chemcon Speciality Chemicals Limited
+354,INE783X01023,Chemfab Alkalis Limited
+355,INE488A01050,Chemplast Sanmar Limited
+356,INE178A01016,Chennai Petroleum Corporation Limited
+357,INE974B01016,Cheviot Company Limited
+358,INE102B01014,Choice International Limited
+359,INE121A01024,Cholamandalam Investment and Finance Company Limited
+360,INE149A01033,Cholamandalam Financial Holdings Limited
+361,INE536H01010,CIE Automotive India Limited
+362,INE675C01017,Cigniti Technologies Limited
+363,INE704H01022,Cineline India Limited
+364,INE039B01026,Cinevista Limited
+365,INE059A01026,Cipla Limited
+366,INE227W01023,Clean Science and Technology Limited
+367,INE201M01029,CL Educate Limited
+368,INE419D01026,Chaman Lal Setia Exports Limited
+369,INE981B01011,CMI Limited
+370,INE925R01014,CMS Info Systems Limited
+371,INE522F01014,Coal India Limited
+372,INE377E01016,Coastal Corporation Limited
+373,INE704P01025,Cochin Shipyard Limited
+374,INE335K01011,Coffee Day Enterprises Limited
+375,INE591G01017,Coforge Limited
+376,INE259A01022,Colgate Palmolive (India) Limited
+377,INE070C01037,Compuage Infocom Limited
+378,INE453B01029,Compucom Software Limited
+379,INE073V01015,Commercial Syn Bags Limited
+380,INE111A01025,Container Corporation of India Limited
+381,INE338H01029,Concord Biotech Limited
+382,INE552D01024,Confidence Petroleum India Limited
+383,INE025A01027,Consolidated Finvest & Holdings Limited
+384,INE663B01015,Control Print Limited
+385,INE558D01021,Coral India Finance & Housing Limited
+386,INE792I01017,Cords Cable Industries Limited
+387,INE169A01031,Coromandel International Limited
+388,INE757A01017,COSMO FIRST LIMITED
+389,INE695B01025,Country Condo's Limited
+390,INE00LO01017,Craftsman Automation Limited
+391,INE985W01018,Creative Newtech Limited
+392,INE230B01021,Creative Eye Limited
+393,INE741K01010,CREDITACCESS GRAMEEN LIMITED
+394,INE559D01011,Crest Ventures Limited
+395,INE007A01025,CRISIL Limited
+396,INE299U01018,Crompton Greaves Consumer Electricals Limited
+397,INE491V01019,Crown Lifters Limited
+398,INE679A01013,CSB Bank Limited
+399,INE718F01018,CSL Finance Limited
+400,INE627H01017,Cambridge Technology Enterprises Limited
+401,INE491A01021,City Union Bank Limited
+402,INE144D01012,Cubex Tubings Limited
+403,INE298A01020,Cummins India Limited
+404,INE509F01029,Cupid Limited
+405,INE278G01037,Cyber Media (India) Limited
+406,INE214A01019,Cybertech Systems And Software Limited
+407,INE136B01020,Cyient Limited
+408,INE055S01018,Cyient DLM Limited
+409,INE016A01026,Dabur India Limited
+410,INE00R701025,Dalmia Bharat Limited
+411,INE495A01022,Dalmia Bharat Sugar and Industries Limited
+412,INE497D01022,Damodar Industries Limited
+413,INE688Y01022,Dangee Dums Limited
+414,INE365B01017,Datamatics Global Services Limited
+415,INE0IX101010,Data Patterns (India) Limited
+416,INE179G01029,Davangere Sugar Company Limited
+417,INE950I01011,D.B.Corp Limited
+418,INE917M01012,Dilip Buildcon Limited
+419,INE0I3401014,Dhampur Bio Organics Limited
+420,INE879I01012,Valor Estate Limited
+421,INE921B01025,DB (International) Stock Brokers Limited
+422,INE385W01011,Dishman Carbogen Amcis Limited
+423,INE503A01015,DCB Bank Limited
+424,INE0A1101019,Dc Infotech And Communication Limited
+425,INE498A01018,DCM  Limited
+426,INE891B01012,DCM Financial Services Limited
+427,INE08KP01019,DCM Nouvelle Limited
+428,INE499A01024,DCM Shriram Limited
+429,INE843D01027,DCM Shriram Industries Limited
+430,INE500A01029,DCW Limited
+431,INE0KL801015,DCX Systems Limited
+432,INE583C01021,Deccan Cements Limited
+433,INE841L01016,DEE Development Engineers Limited
+434,INE501A01019,Deepak Fertilizers and Petrochemicals Corporation Limited
+435,INE288B01029,Deepak Nitrite Limited
+436,INE0FHS01024,Deep Industries Limited
+437,INE148O01028,Delhivery Limited
+438,INE726L01019,DELPHI WORLD MONEY LIMITED
+439,INE124G01033,Delta Corp Limited
+440,INE393A01011,Delta Manufacturing Limited
+441,INE947J01015,Den Networks Limited
+442,INE244A01016,De Nora India Limited
+443,INE060X01026,Dev Information Technology Limited
+444,INE872J01023,Devyani International Limited
+445,INE03JI01017,Digicontent Limited
+446,INE041A01016,Dhampur Sugar Mills Limited
+447,INE680A01011,Dhanlaxmi Bank Limited
+448,INE274G01010,Dhani Services Limited
+449,INE435G01025,Dhanuka Agritech Limited
+450,INE00OQ01016,Dharmaj Crop Guard Limited
+451,INE506Z01015,Dhruv Consultancy Services Limited
+452,INE320L01011,Dhunseri Investments Limited
+453,INE989C01020,Diamond Power Infrastructure Limited
+454,INE591D01014,Diamines & Chemicals Limited
+455,INE393P01035,Prataap Snacks Limited
+456,INE303A01010,DIC India Limited
+457,INE0PSC01024,Digidrive Distributors Limited
+458,INE927C01020,DiGiSPICE Technologies Limited
+459,INE731U01028,Digjam Limited
+460,INE411Y01011,Debock Industries Limited
+461,INE836F01026,Dish TV India Limited
+462,INE753U01022,Divgi Torqtransfer Systems Limited
+463,INE361B01024,Divi's Laboratories Limited
+464,INE935N01020,Dixon Technologies (India) Limited
+465,INE0B1K01014,DJ Mediaprint & Logistics Limited
+466,INE271C01023,DLF Limited
+467,INE250K01012,D-Link (India) Limited
+468,INE192R01011,Avenue Supermarts Limited
+469,INE505A01010,DMCC SPECIALITY CHEMICALS LIMITED
+470,INE016M01021,Diligent Media Corporation Limited
+471,INE021O01019,Dodla Dairy Limited
+472,INE966A01022,Dolat Algotech Limited
+473,INE325C01035,Dollar Industries Limited
+474,INE920A01037,Dolphin Offshore Enterprises (India) Limited
+475,INE321T01012,DOMS Industries Limited
+476,INE668D01028,Donear Industries Limited
+477,INE266Y01019,D. P. Abhushan Limited
+478,INE360C01024,DPSC Limited
+479,INE864X01013,D P Wires Limited
+480,INE03RS01027,DRC Systems India Limited
+481,INE0JS101016,Dreamfolks Services Limited
+482,INE506A01018,Dredging Corporation of India Limited
+483,INE089A01023,Dr. Reddy's Laboratories Limited
+484,INE417B01040,Dynacons Systems & Solutions Limited
+485,INE341R01014,Dhunseri Tea & Industries Limited
+486,INE741L01018,Ducon Infratechnologies Limited
+487,INE477B01010,Dhunseri Ventures Limited
+488,INE366A01041,Dwarikesh Sugar Industries Limited
+489,INE600Y01019,Dynamic Cables Limited
+490,INE221B01012,Dynamatic Technologies Limited
+491,INE256H01015,Dynemic Products Limited
+492,INE255Z01019,E2E Networks Limited
+493,INE07O001026,Easy Trip Planners Limited
+494,INE738I01010,eClerx Services Limited
+495,INE06HJ01020,Ecos (India) Mobility & Hospitality Limited
+496,INE532F01054,Edelweiss Financial Services Limited
+497,INE216H01027,Educomp Solutions Limited
+498,INE066A01021,Eicher Motors Limited
+499,INE126A01031,EID Parry India Limited
+500,INE546V01010,Euro India Fresh Foods Limited
+501,INE276C01014,EIH Associated Hotels Limited
+502,INE230A01023,EIH Limited
+503,INE158B01016,Eimco Elecon (India) Limited
+504,INE184H01027,Everest Kanto Cylinder Limited
+505,INE668G01021,Eldeco Housing And Industries Limited
+506,INE205B01031,Elecon Engineering Company Limited
+507,INE086A01029,Electrosteel Castings Limited
+508,INE822G01016,Electrotherm (India) Limited
+509,INE285A01027,Elgi Equipments Limited
+510,INE819L01012,Elgi Rubber Company Limited
+511,INE050401020,Elin Electronics Limited
+512,INE548C01032,Emami Limited
+513,INE830C01026,Emami Paper Mills Limited
+514,INE778K01012,Emami Realty Limited
+515,INE069I01010,Equinox India Developments Limited
+516,INE168P01015,Emcure Pharmaceuticals Limited
+517,INE02YR01019,Electronics Mart India Limited
+518,INE296H01011,Emkay Global Financial Services Limited
+519,INE753K01015,Emmbi Industries Limited
+520,INE0OV601013,EMS Limited
+521,INE01QM01018,eMudhra Limited
+522,INE913H01037,Endurance Technologies Limited
+523,INE306C01019,Energy Development Company Limited
+524,INE510A01028,Engineers India Limited
+525,INE265F01028,Entertainment Network (India) Limited
+526,INE010601016,Entero Healthcare Solutions Limited
+527,INE0G5901015,EPACK Durable Limited
+528,INE071N01016,Epigral Limited
+529,INE255A01020,EPL Limited
+530,INE217G01035,Equippp Social Impact Technologies Limited
+531,INE063P01018,Equitas Small Finance Bank Limited
+532,INE406M01024,Eris Lifesciences Limited
+533,INE416L01017,Eros International Media Limited
+534,INE284A01012,Esab India Limited
+535,INE818W01011,ESAF Small Finance Bank Limited
+536,INE042A01014,Escorts Kubota Limited
+537,INE122M01019,Essar Shipping Limited
+538,INE418N01035,Integra Essentia Limited
+539,INE778B01029,Ester Industries Limited
+540,INE04TZ01018,Ethos Limited
+541,INE0KCE01017,Eureka Forbes Limited
+542,INE022C01012,Eurotex Industries and Exports Limited
+543,INE128A01029,Eveready Industries India Limited
+544,INE295A01018,Everest Industries Limited
+545,INE688J01023,Excel Realty N Infra Limited
+546,INE369A01029,Excel Industries Limited
+547,INE777F01014,Exicom Tele-Systems Limited
+548,INE302A01020,Exide Industries Limited
+549,INE201K01015,Expleo Solutions Limited
+550,INE0GFE01018,Exxaro Tiles Limited
+551,INE188A01015,Fertilizers and Chemicals Travancore Limited
+552,INE0DNW01011,Fairchem Organics Limited
+553,INE963C01033,Faze Three Limited
+554,INE045J01026,Fineotex Chemical Limited
+555,INE220J01025,Future Consumer Limited
+556,INE512B01022,FCS Software Solutions Limited
+557,INE258B01022,FDC Limited
+558,INE171A01029,The Federal Bank  Limited
+559,INE007N01010,Fedbank Financial Services Limited
+560,INE623B01027,Future Enterprises Limited
+561,IN9623B01058,Future Enterprises Limited
+562,INE296C01020,Fiberweb (India) Limited
+563,INE737H01014,Fiem Industries Limited
+564,INE816B01035,Filatex India Limited
+565,INE185E01021,Filatex Fashions Limited
+566,INE235A01022,Finolex Cables Limited
+567,INE686Y01026,Fine Organic Industries Limited
+568,INE02NC01014,Fino Payments Bank Limited
+569,INE183A01024,Finolex Industries Limited
+570,INE02RE01045,Brainbees Solutions Limited
+571,INE128S01021,Five-Star Business Finance Limited
+572,INE00Y201027,Flair Writing Industries Limited
+573,INE060J01017,Flexituff Ventures International Limited
+574,INE452O01016,Future Lifestyle Fashions Limited
+575,INE09N301011,Gujarat Fluorochemicals Limited
+576,INE529A01010,Federal-Mogul Goetze (India) Limited.
+577,INE360L01017,Future Market Networks Limited
+578,INE593W01028,Focus Lighting and Fixtures Limited
+579,INE976E01023,Foods & Inns Limited
+580,INE451A01017,FORCE MOTORS LTD
+581,INE061F01013,Fortis Healthcare Limited
+582,INE519A01011,Foseco India Limited
+583,INE935Q01015,Future Supply Chain Solutions Limited
+584,INE684F01012,Firstsource Solutions Limited
+585,INE139R01012,Fusion Finance Limited
+586,INE524A01029,Gabriel India Limited
+587,INE036B01030,Gujarat Ambuja Exports Limited
+588,INE129A01019,GAIL (India) Limited
+589,INE0RE001014,Gala Precision Engineering Limited
+590,INE600K01018,Galaxy Surfactants Limited
+591,INE297H01019,Gallantt Ispat Limited
+592,INE717W01049,Gandhar Oil Refinery (India) Limited
+593,INE524B01027,Gandhi Special Tubes Limited
+594,INE845D01014,Ganesha Ecosphere Limited
+595,INE388A01029,Ganesh Benzoplast Limited
+596,INE460C01014,Ganesh Housing Corporation Limited
+597,INE691Z01023,Ganga Forging Limited
+598,INE335W01016,Ganges Securities Limited
+599,INE670B01028,Gangotri Textiles Limited
+600,INE276A01018,Garware Technical Fibres Limited
+601,INE224E01028,GACM Technologies Limited
+602,INE224E01036,GACM Technologies Limited
+603,INE079J01017,Gateway Distriparks Limited
+604,INE287Z01012,Gayatri Highways Limited
+605,INE336H01023,Gayatri Projects Limited
+606,INE916G01016,GeeCee Ventures Limited
+607,INE669X01024,Geekay Wires Limited
+608,INE854S01022,Generic Engineering Construction and Projects Limited
+609,INE727B01026,Genesys International Corporation Limited
+610,INE06H201014,Gensol Engineering Limited
+611,INE949P01018,Genus Paper & Boards Limited
+612,INE955D01029,Genus Power Infrastructures Limited
+613,INE007B01023,Geojit Financial Services Limited
+614,INE878A01011,GE Power India Limited
+615,INE017A01032,The Great Eastern Shipping Company Limited
+616,INE200A01026,GE T&D India Limited
+617,INE538A01037,GFL Limited
+618,INE534A01028,Grand Foundry Limited
+619,INE539A01019,GHCL Limited
+620,INE0PA801013,GHCL Textiles Limited
+621,INE289B01019,GIC Housing Finance Limited
+622,INE481Y01014,General Insurance Corporation of India
+623,INE047B01011,Gillanders Arbuthnot & Company Limited
+624,INE322A01010,Gillette India Limited
+625,INE424C01010,Ginni Filaments Limited
+626,INE162A01010,Gujarat Industries Power Company Limited
+627,INE528A01020,GKW Limited
+628,INE068V01023,Gland Pharma Limited
+629,INE159A01016,GlaxoSmithKline Pharmaceuticals Limited
+630,INE935A01035,Glenmark Pharmaceuticals Limited
+631,INE540A01017,Gujarat Lease Financing Limited
+632,INE291W01029,Global Education Limited
+633,INE0URU01010,Globale Tessile Limited
+634,INE792H01019,Global Vectra Helicorp Limited
+635,INE581X01021,Globe Textiles (India) Limited
+636,INE615I01010,Globus Spirits Limited
+637,INE350Z01018,Gloster Limited
+638,INE03Q201024,Glenmark Life Sciences Limited
+639,INE075D01018,GM Breweries Limited
+640,INE131A01031,Gujarat Mineral Development Corporation Limited
+641,INE541A01023,GMM Pfaudler Limited
+642,INE776C01039,GMR Airports Infrastructure Limited
+643,INE0CU601026,GMR Power and Urban Infra Limited
+644,INE934S01014,GNA Axles Limited
+645,INE113A01013,Gujarat Narmada Valley Fertilizers and Chemicals Limited
+646,INE426D01013,Goa Carbon Limited
+647,INE077F01035,GOCL Corporation Limited
+648,INE0BJS01011,Go Fashion (India) Limited
+649,INE260B01028,Godfrey Phillips India Limited
+650,INE925Y01036,Godha Cabcon & Insulation Limited
+651,INE03JT01014,Go Digit General Insurance Limited
+652,INE850D01014,Godrej Agrovet Limited
+653,INE102D01028,Godrej Consumer Products Limited
+654,INE233A01035,Godrej Industries Limited
+655,INE484J01027,Godrej Properties Limited
+656,INE516K01024,Goenka Diamond and Jewels Limited
+657,INE887G01027,Gokaldas Exports Limited
+658,INE020J01029,Gokul Refoils and Solvent Limited
+659,INE314T01025,Gokul Agro Resources Limited
+660,INE973A01010,Golden Tobacco Limited
+661,INE025B01025,Goldiam International Limited
+662,INE805A01014,AION-TECH SOLUTIONS LIMITED
+663,INE127I01024,Goodluck India Limited
+664,INE0L9R01028,Gopal Snacks Limited
+665,INE705X01026,Goyal Aluminiums Limited
+666,INE177H01021,Godawari Power And Ispat limited
+667,INE517F01014,Gujarat Pipavav Port Limited
+668,INE486R01017,GPT Healthcare Limited
+669,INE390G01014,GPT Infraprojects Limited
+670,INE101D01020,Granules India Limited
+671,INE371A01025,Graphite India Limited
+672,INE047A01021,Grasim Industries Limited
+673,INE024L01027,Gravita India Limited
+674,INE224A01026,Greaves Cotton Limited
+675,INE544R01021,Greenlam Industries Limited
+676,INE08ZM01014,Greenpanel Industries Limited
+677,INE461C01038,Greenply Industries Limited
+678,INE999K01014,Orient Green Power Company Limited
+679,INE536A01023,Grindwell Norton Limited
+680,INE201P01022,G R Infraprojects Limited
+681,INE192H01020,GRM Overseas Limited
+682,INE646C01018,The Grob Tea Company Limited
+683,INE137I01015,GRP Limited
+684,INE382Z01011,Garden Reach Shipbuilders & Engineers Limited
+685,INE291A01017,Garware Hi-Tech Films Limited
+686,INE026A01025,Gujarat State Fertilizers & Chemicals Limited
+687,INE0JSX01015,Global Surfaces Limited
+688,INE246F01010,Gujarat State Petronet Limited
+689,INE871H01011,GSS Infotech Limited
+690,INE586X01012,G-TEC JAINX EDUCATION LIMITED
+691,INE043A01012,GTL Limited
+692,INE221H01019,GTL Infrastructure Limited
+693,INE869I01013,GTPL Hathway Limited
+694,INE742B01025,Gufic Biosciences Limited
+695,INE186A01019,Gujarat Alkalies and Chemicals Limited
+696,INE826C01016,Gujarat Apollo Industries Limited
+697,INE844O01030,Gujarat Gas Limited
+698,INE610B01024,Gujarat Raffia Industries Limited
+699,INE635Q01029,Gulf Oil Lubricants India Limited
+700,INE586G01017,GP Petroleums Limited
+701,INE255D01024,Gulshan Polyols Limited
+702,INE251H01024,GVK Power & Infrastructure Limited
+703,INE382T01030,GVP Infotech Limited
+704,INE066F01020,Hindustan Aeronautics Limited
+705,INE419U01012,Happiest Minds Technologies Limited
+706,INE330T01021,Happy Forgings Limited
+707,INE626Z01029,Hardwyn India Limited
+708,INE00EV01017,Hariom Pipe Industries Limited
+709,INE544A01019,Harrisons  Malayalam Limited
+710,INE0JUS01029,Harsha Engineers International Limited
+711,INE982F01036,Hathway Cable & Datacom Limited
+712,INE473B01035,Hatsun Agro Product Limited
+713,INE176B01034,Havells India Limited
+714,INE293B01029,Sri Havisha Hospitality and Infrastructure Limited
+715,INE292B01021,HBL Power Systems Limited
+716,INE550B01022,HB Stockholdings Limited
+717,INE549A01026,Hindustan Construction Company Limited
+718,INE075I01017,Healthcare Global Enterprises Limited
+719,INE236A01020,HCL Infosystems Limited
+720,INE860A01027,HCL Technologies Limited
+721,INE127D01025,HDFC Asset Management Company Limited
+722,INE040A01034,HDFC Bank Limited
+723,INE795G01014,HDFC Life Insurance Company Limited
+724,INE191I01012,Housing Development and Infrastructure Limited
+725,INE759V01019,Heads UP Ventures Limited
+726,INE558R01013,HEC Infra Projects Limited
+727,INE545A01016,HEG Limited
+728,INE578A01017,HeidelbergCement India Limited
+729,INE0AJG01018,Hemisphere Properties India Limited
+730,INE694N01015,Heranba Industries Limited
+731,INE688E01024,Hercules Hoists Limited
+732,INE978A01027,Heritage Foods Limited
+733,INE158A01026,Hero MotoCorp Limited
+734,INE782E01017,Hester Biosciences Limited
+735,INE492A01029,Heubach Colorants India Limited
+736,INE750M01017,Hexa Tradex Limited
+737,INE548A01028,HFCL Limited
+738,INE926X01010,H.G. Infra Engineering Limited
+739,INE170I01016,Hinduja Global Solutions Limited
+740,INE475B01022,Hikal Limited
+741,INE557A01011,HIL Limited
+742,INE788H01017,Hilton Metal Forging Limited
+743,INE049A01027,Himatsingka Seide Limited
+744,INE038A01020,Hindalco Industries Limited
+745,INE310C01029,Hindustan Composites Limited
+746,INE642Y01029,Hindcon Chemicals Limited
+747,INE531E01026,Hindustan Copper Limited
+748,INE253A01025,Hindustan Motors Limited
+749,INE952A01022,Hindusthan National Glass & Industries Limited
+750,INE345A01011,Hindustan Oil Exploration Company Limited
+751,INE094A01015,Hindustan Petroleum Corporation Limited
+752,INE030A01027,Hindustan Unilever Limited
+753,INE05AN01011,Hindware Home Innovation Limited
+754,INE267A01025,Hindustan Zinc Limited
+755,INE835D01023,Hind Rectifiers Limited
+756,INE598C01011,Hisar Metal Industries Limited
+757,INE106T01025,Hi-Tech Pipes Limited
+758,INE120D01012,Hitech Corporation Limited
+759,INE127B01011,The Hi-Tech Gears Limited
+760,INE461D01028,HLE Glascoat Limited
+761,INE102A01024,HLV LIMITED
+762,INE0ECP01024,HMA Agro Industries Limited
+763,INE262A01018,HMT Limited
+764,INE871K01015,Hindustan Media Ventures Limited
+765,INE254N01026,Hindustan Foods Limited
+766,INE481N01025,Home First Finance Company India Limited
+767,INE0J5401028,Honasa Consumer Limited
+768,INE671A01010,Honeywell Automation India Limited
+769,INE634A01018,Honda India Power Products Limited
+770,INE596H01014,HOV Services Limited
+771,INE0GSL01024,HP Adhesives Limited
+772,INE05X901010,Hindprakash Industries Limited
+773,INE495S01016,HPL Electric & Power Limited
+774,INE019C01026,Himadri Speciality Chemical Limited
+775,INE501G01024,HT Media Limited
+776,INE703H01016,Hubtown Limited
+777,INE031A01017,Housing & Urban Development Corporation Limited
+778,INE275B01026,Huhtamaki India Limited
+779,INE965B01022,Hybrid Financial Services Limited
+780,INE613B01010,ICDS Limited
+781,INE520Y01019,Ice Make Refrigeration Limited
+782,INE090A01021,ICICI Bank Limited
+783,INE765G01017,ICICI Lombard General Insurance Company Limited
+784,INE726G01019,ICICI Prudential Life Insurance Company Limited
+785,INE483B01026,Indo Count Industries Limited
+786,INE725G01011,ICRA Limited
+787,INE008A01015,IDBI Bank Limited
+788,INE669E01016,Vodafone Idea Limited
+789,INE349Y01013,Ideaforge Technology Limited
+790,INE043D01016,IDFC Limited
+791,INE092T01019,IDFC First Bank Limited
+792,INE059901020,Indiabulls Enterprises Limited
+793,INE022Q01020,Indian Energy Exchange Limited
+794,INE076C01018,IFB Agro Industries Limited
+795,INE559A01017,IFB Industries Limited
+796,INE039A01010,IFCI Limited
+797,INE133Y01011,IFGL Refractories Limited
+798,INE188B01013,Igarashi Motors India Limited
+799,INE203G01027,Indraprastha Gas Limited
+800,INE204A01010,IG Petrochemicals Limited
+801,INE530B01024,IIFL Finance Limited
+802,INE489L01022,IIFL Securities Limited
+803,INE886A01014,Industrial Investment Trust Limited
+804,INE0LOJ01019,IKIO Lighting Limited
+805,INE369I01014,IL&FS Engineering and Construction Company Limited
+806,INE975G01012,IL&FS Transportation Networks Limited
+807,INE172N01012,Imagicaaworld Entertainment Limited
+808,INE919H01018,Indian Metals & Ferro Alloys Limited
+809,INE547E01014,India Motor Parts and Accessories Limited
+810,INE691G01015,Impex Ferro Tech Limited
+811,INE452L01012,INCREDIBLE INDUSTRIES LIMITED
+812,INE841B01017,Indbank Merchant Banking Services Limited
+813,INE065X01017,Indegene Limited
+814,INE053A01029,The Indian Hotels Company Limited
+815,INE383A01012,The India Cements Limited
+816,INE560A01015,India Glycols Limited
+817,INE933S01016,Indiamart Intermesh Limited
+818,INE562A01011,Indian Bank
+819,INE061A01014,Indian Card Clothing Company Limited
+820,INE323C01030,Indian Hume Pipe Company Limited
+821,INE922K01024,India Shelter Finance Corporation Limited
+822,INE646L01027,InterGlobe Aviation Limited
+823,INE09VQ01012,Indigo Paints Limited
+824,INE092B01025,India Nippon Electricals Limited
+825,INE760F01028,Indo Amines Limited
+826,INE803D01021,Indo Borax & Chemicals Limited
+827,INE873D01024,Indoco Remedies Limited
+828,INE156A01020,Indo Rama Synthetics (India) Limited
+829,INE896L01010,IndoStar Capital Finance Limited
+830,INE332H01014,Indo Tech Transformers Limited
+831,INE337M01013,Indo Thai Securities Limited
+832,INE250Z01010,Indo Us Biotech Limited
+833,INE227G01018,Indowind Energy Limited
+834,INE681B01017,Indraprastha Medical Corporation Limited
+835,INE915B01019,Ind-Swift Laboratories Limited
+836,INE788B01028,Ind-Swift Limited
+837,INE611L01021,Indian Terrain Fashions Limited
+838,INE095A01012,IndusInd Bank Limited
+839,INE121J01017,Indus Towers Limited
+840,INE483S01020,Infibeam Avenues Limited
+841,INE344S01016,InfoBeans Technologies Limited
+842,INE669A01022,Infomedia Press Limited
+843,INE009A01021,Infosys Limited
+844,INE177A01018,Ingersoll Rand (India) Limited
+845,INE0DUT01020,Innova Captab Limited
+846,INE510W01014,Inox Green Energy Services Limited
+847,INE616N01034,INOX India Limited
+848,INE066P01011,Inox Wind Limited
+849,INE070I01018,Insecticides (India) Limited
+850,INE020G01017,Inspirisys Solutions Limited
+851,INE306R01017,Intellect Design Arena Limited
+852,INE781A01025,Intense Technologies Limited
+853,INE00M901018,Interarch Building Products Limited
+854,INE575C01027,International Conveyors Limited
+855,INE878H01024,Inventure Growth & Securities Limited
+856,INE565A01014,Indian Overseas Bank
+857,INE242A01010,Indian Oil Corporation Limited
+858,INE485C01011,IOL Chemicals and Pharmaceuticals Limited
+859,INE570A01022,ION Exchange (India) Limited
+860,INE571A01038,IPCA Laboratories Limited
+861,INE0D6701023,India Pesticides Limited
+862,INE821I01022,IRB Infrastructure Developers Limited
+863,INE962Y01021,Ircon International Limited
+864,INE335Y01020,Indian Railway Catering And Tourism Corporation Limited
+865,INE202E01016,Indian Renewable Energy Development Agency Limited
+866,INE053F01010,Indian Railway Finance Corporation Limited
+867,INE864K01010,Iris Business Services Limited
+868,INE01GN01025,Iris Clothings Limited
+869,INE07U701015,IRM Energy Limited
+870,INE763G01038,ICICI Securities Limited
+871,INE566K01011,Intrasoft Technologies Limited
+872,INE858B01029,Isgec Heavy Engineering Limited
+873,INE154A01025,ITC Limited
+874,INE353K01014,India Tourism Development Corporation Limited
+875,INE686A01026,ITD Cementation India Limited
+876,INE248A01017,ITI Limited
+877,INE050B01023,IL&FS Investment Managers Limited
+878,INE043C01018,IVP Limited
+879,INE0FLR01028,Inox Wind Energy Limited
+880,INE0HV901016,Le Travenues Technology Limited
+881,INE848A01014,IZMO Limited
+882,INE168A01041,The Jammu & Kashmir Bank Limited
+883,INE199G01027,Jagran Prakashan Limited
+884,INE048B01027,Jagsonpal Pharmaceuticals Limited
+885,INE091G01018,Jai Balaji Industries Limited
+886,INE070D01027,Jai Corp Limited
+887,INE696V01013,Nandani Creation Limited
+888,INE039C01032,Jamna Auto Industries Limited
+889,INE039O01011,Jash Engineering Limited
+890,INE785A01026,Jayant Agro Organics Limited
+891,INE571B01036,Jay Bharat Maruti Limited
+892,INE854B01010,Jayaswal Neco Industries Limited
+893,INE364A01020,Jayshree Tea & Industries Limited
+894,INE572A01036,JB Chemicals & Pharmaceuticals Limited
+895,INE927D01044,JBM Auto Limited
+896,INE782A01015,Johnson Controls - Hitachi Air Conditioning India Limited
+897,INE802G01018,Jet Airways (India) Limited
+898,INE982V01025,Jet Freight Logistics Limited
+899,INE0MB501011,J.G.Chemicals Limited
+900,INE544H01014,JHS Svendgaard Laboratories Limited
+901,INE796G01012,Jindal Photo Limited
+902,INE197D01010,Jindal Poly Films Limited
+903,INE324A01024,Jindal Saw Limited
+904,INE749A01030,Jindal Steel & Power Limited
+905,INE742C01031,Jindal Drilling And Industries Limited
+906,INE247D01039,Jindal Worldwide Limited
+907,INE758E01017,Jio Financial Services Limited
+908,IN9175A01010,Jain Irrigation Systems Limited
+909,INE175A01038,Jain Irrigation Systems Limited
+910,INE863T01013,JITF Infralogistics Limited
+911,INE823G01014,JK Cement Limited
+912,INE576I01022,J.Kumar Infraprojects Limited
+913,INE786A01032,JK Lakshmi Cement Limited
+914,INE789E01012,JK Paper Limited
+915,INE573A01042,JK Tyre & Industries Limited
+916,INE682M01012,Jupiter Life Line Hospitals Limited
+917,INE412C01023,Jullundur Motor Agency (Delhi) Limited
+918,INE780C01023,JM Financial Limited
+919,INE0OAF01028,JNK India Limited
+920,INE839G01010,Jocil Limited
+921,INE455F01025,Jaiprakash Associates Limited
+922,INE147P01019,Jindal Poly Investment and Finance Company Limited
+923,INE351F01018,Jaiprakash Power Ventures Limited
+924,INE953L01027,Jana Small Finance Bank Limited
+925,INE220G01021,Jindal Stainless Limited
+926,INE121E01018,JSW Energy Limited
+927,INE824G01012,JSW Holdings Limited
+928,INE880J01026,JSW Infrastructure Limited
+929,INE019A01038,JSW Steel Limited
+930,INE643A01035,Jtekt India Limited
+931,INE391J01024,JTL INDUSTRIES LIMITED
+932,INE797F01020,Jubilant Foodworks Limited
+933,INE645L01011,Jubilant Industries Limited
+934,INE0BY001018,Jubilant Ingrevia Limited
+935,INE700A01033,Jubilant Pharmova Limited
+936,INE696F01016,Juniper Hotels Limited
+937,INE599M01018,Just Dial Limited
+938,INE209L01016,Jupiter Wagons Limited
+939,INE668F01031,Jyothy Labs Limited
+940,INE980O01024,Jyoti CNC Automation Limited
+941,INE197A01024,Jyoti Structures Limited
+942,INE900B01029,Kabra Extrusion Technik Limited
+943,INE217B01036,Kajaria Ceramics Limited
+944,INE437B01014,Kakatiya Cement Sugar & Industries Limited
+945,INE438K01021,Sai Silks (Kalamandir) Limited
+946,INE610E01010,Kalyani Commercials Limited
+947,INE314G01014,Kalyani Forge Limited
+948,INE303R01014,Kalyan Jewellers India Limited
+949,INE967C01018,Kamat Hotels (I) Limited
+950,INE390H01012,Kamdhenu Limited
+951,INE0BTI01037,Kamdhenu Ventures Limited
+952,INE879E01037,Kanani Industries Limited
+953,INE138C01024,Kanoria Chemicals & Industries Limited
+954,INE694E01014,Kanpur Plastipack Limited
+955,INE531A01024,Kansai Nerolac Paints Limited
+956,INE542Z01028,Kapston Services Limited
+957,INE725L01011,Karma Energy Limited
+958,INE036D01028,Karur Vysya Bank Limited
+959,INE234I01028,Kaushalya Infrastructure Development Corporation Limited
+960,INE641C01019,Kavveri Telecom Products Limited
+961,INE587G01015,Kaya Limited
+962,INE918Z01012,Kaynes Technology India Limited
+963,INE278R01034,KBC Global Limited
+964,INE805C01028,KCP Limited
+965,INE790B01024,KCP Sugar and Industries Corporation Limited
+966,INE291D01011,KDDL Limited
+967,INE389H01022,KEC International Limited
+968,INE134B01017,Kirloskar Electric Company Limited
+969,INE055C01020,DSJ Keep Learning Limited
+970,INE878B01027,KEI Industries Limited
+971,INE164B01022,Kellton Tech Solutions Limited
+972,INE202H01019,Kernex Microsystems (India) Limited
+973,INE087A01019,Kesoram Industries Limited
+974,INE681C01015,Keynote Financial Services Limited
+975,INE138Y01010,Kfin Technologies Limited
+976,INE834I01025,Khadim India Limited
+977,INE745B01028,Khaitan Chemicals & Fertilizers Limited
+978,INE731C01018,Khaitan (India) Limited
+979,INE060B01014,Khandwala Securities Limited
+980,INE029L01018,Kalyani Investment Company Limited
+981,INE729D01010,Kilitch Drugs (India) Limited
+982,INE967H01025,Krishna Institute of Medical Sciences Limited
+983,INE473D01015,Kingfa Science & Technology (India) Limited
+984,INE880L01014,KIOCL Limited
+985,INE415I01015,Kiri Industries Limited
+986,INE732A01036,Kirloskar Brothers Limited
+987,INE146L01010,Kirloskar Oil Engines Limited
+988,INE250A01039,Kirloskar Industries Limited
+989,INE811A01020,Kirloskar Pneumatic Company Limited
+990,INE602G01020,Kitex Garments Limited
+991,INE401H01017,Kewal Kiran Clothing Limited
+992,INE157H01023,K.M.Sugar Mills Limited
+993,INE634I01029,KNR Constructions Limited
+994,INE080B01012,Kohinoor Foods Limited
+995,INE760A01029,Kokuyo Camlin Limited
+996,INE094I01018,Kolte - Patil Developers Limited
+997,INE082A01010,Kopran Limited
+998,INE237A01028,Kotak Mahindra Bank Limited
+999,INE419A01022,Kothari Sugars And Chemicals Limited
+1000,INE720A01015,Kothari Petrochemicals Limited
+1001,INE823A01017,Kothari Products Limited
+1002,INE542W01025,KPI Green Energy Limited
+1003,INE220B01022,Kalpataru Projects International Limited
+1004,INE04I401011,KPIT Technologies Limited
+1005,INE930H01031,K.P.R. Mill Limited
+1006,INE001B01026,KRBL Limited
+1007,INE268B01013,Krebs Biochemicals and Industries Limited
+1008,INE524L01026,Kridhan Infra Limited
+1009,INE506W01012,Krishana Phoschem Limited
+1010,INE479D01038,Kriti Industries (India) Limited
+1011,INE00Z501029,Kritika Wires Limited
+1012,INE798K01010,Kriti Nutrients Limited
+1013,INE0ATZ01017,Kronox Lab Sciences Limited
+1014,INE0O6601022,Kross Limited
+1015,INE08LI01020,Krsnaa Diagnostics Limited
+1016,INE0QN801017,Krystal Integrated Services Limited
+1017,INE999A01023,Ksb Limited
+1018,INE455I01029,Kaveri Seed Company Limited
+1019,INE013801027,Kshitij Polyline Limited
+1020,INE907A01026,Kalyani Steels Limited
+1021,INE0D6I01015,Ksolves India Limited
+1022,INE614B01018,The Karnataka Bank Limited
+1023,INE529I01021,Kuantum Papers Limited
+1024,INE548Z01017,Lagnam Spintex Limited
+1025,INE651C01018,Lakshmi Precision Screws Limited
+1026,INE740X01023,Lorenzini Apparels Limited
+1027,INE600L01024,Dr. Lal Path Labs Ltd.
+1028,INE112F01022,Lambodhara Textiles Limited
+1029,INE572G01025,Lancor Holdings Limited
+1030,INE559R01029,Landmark Cars Limited
+1031,INE059D01020,La Opala RG Limited
+1032,INE670X01014,Lasa Supergenerics Limited
+1033,INE0I7C01011,Latent View Analytics Limited
+1034,INE262Z01023,Latteys Industries Limited
+1035,INE947Q01028,Laurus Labs Limited
+1036,INE801V01019,Laxmi Cotspin Limited
+1037,INE269B01029,Lakshmi Machine Works Limited
+1038,INE938A01021,LCC Infotech Limited
+1039,INE970X01018,Lemon Tree Hotels Limited
+1040,INE500X01013,Lexus Granito (India) Limited
+1041,INE850E01012,Lakshmi Finance & Industrial Corporation Limited
+1042,INE337A01034,LG Balakrishnan & Bros Limited
+1043,INE258Y01016,Laxmi Goldorna House Limited
+1044,INE908V01012,Libas Consumer Products Limited
+1045,INE557B01019,Liberty Shoes Limited
+1046,INE115A01026,LIC Housing Finance Limited
+1047,INE0J1Y01017,Life Insurance Corporation Of India
+1048,INE060901027,Likhitha Infrastructure Limited
+1049,INE802B01019,Linc Limited
+1050,INE405C01035,Lincoln Pharmaceuticals Limited
+1051,INE473A01011,Linde India Limited
+1052,INE093R01011,LLOYDS ENGINEERING WORKS LIMITED
+1053,INE281B01032,Lloyds Metals And Energy Limited
+1054,INE670K01029,Macrotech Developers Limited
+1055,INE397H01017,Lokesh Machines Limited
+1056,INE846D01012,Lords Chloro Alkali Limited
+1057,INE947I01017,Lotus Eye Hospital and Institute Limited
+1058,INE597L01014,Lovable Lingerie Limited
+1059,INE970D01010,Loyal Textile Mills Limited
+1060,INE197J01017,Landmark Property Development Company Limited
+1061,INE018A01030,Larsen & Toubro Limited
+1062,INE498L01015,L&T Finance Limited
+1063,INE818H01020,LT Foods Limited
+1064,INE214T01019,LTIMindtree Limited
+1065,INE010V01017,L&T Technology Services Limited
+1066,INE162B01018,Lumax Industries Limited
+1067,INE872H01027,Lumax Auto Technologies Limited
+1068,INE326A01037,Lupin Limited
+1069,INE150G01020,Lux Industries Limited
+1070,INE576O01020,Laxmi Organic Industries Limited
+1071,INE933A01014,Lyka Labs Limited
+1072,INE142K01011,Lypsa Gems & Jewellery Limited
+1073,INE101A01026,Mahindra & Mahindra Limited
+1074,INE774D01024,Mahindra & Mahindra Financial Services Limited
+1075,INE215I01027,Maan Aluminium Limited
+1076,INE155Z01011,Macpower CNC Machines Limited
+1077,INE925C01016,Madhav Marbles and Granites Limited
+1078,INE378D01032,Madhucon Projects Limited
+1079,INE414A01015,Madras Fertilizers Limited
+1080,INE347W01011,Magadh Sugar & Energy Limited
+1081,INE387I01016,Magnum Ventures Limited
+1082,INE457A01014,Bank of Maharashtra
+1083,INE843B01013,Maha Rashtra Apex Corporation Limited
+1084,INE451L01014,Mahamaya Steel Industries Limited
+1085,INE215D01010,Mahindra EPC Irrigation Limited
+1086,INE263W01010,Maheshwari Logistics Limited
+1087,INE813A01018,Mahindra Lifespace Developers Limited
+1088,INE766P01016,Mahindra Logistics Limited
+1089,INE288A01013,Maharashtra Scooters Limited
+1090,INE271B01025,Maharashtra Seamless Limited
+1091,INE683C01011,Maithan Alloys Limited
+1092,INE389C01015,Mallcom (India) Limited
+1093,INE383H01017,Malu Paper Mills Limited
+1094,INE859Q01017,Manaksia Aluminium Company Limited
+1095,INE830Q01018,Manaksia Coated Metals & Industries Limited
+1096,INE015D01022,Manaksia Limited
+1097,INE824Q01011,Manaksia Steels Limited
+1098,INE201A01024,Manali Petrochemicals Limited
+1099,INE522D01027,Manappuram Finance Limited
+1100,INE939X01013,Manba Finance Limited
+1101,INE545L01039,Mangal Credit and Fincorp Limited
+1102,INE584F01014,Mangalam Drugs And Organics Limited
+1103,INE558B01017,Mangalore Chemicals & Fertilizers Limited
+1104,INE347A01017,Mangalam Cement Limited
+1105,INE993A01026,Man Industries (India) Limited
+1106,INE949H01023,Man Infraconstruction Limited
+1107,INE634S01028,Mankind Pharma Limited
+1108,INE784W01015,Manomay Tex India Limited
+1109,INE00VM01036,Manorama Industries Limited
+1110,INE370D01013,Mangalam Organics Limited
+1111,INE867A01022,Manugraph India Limited
+1112,INE825V01034,Vedant Fashions Limited
+1113,INE0BV301023,C.E. Info Systems Limited
+1114,INE882A01013,Maral Overseas Limited
+1115,INE182D01020,Marathon Nextgen Realty Limited
+1116,INE196A01026,Marico Limited
+1117,INE01JE01028,Marine Electricals (India) Limited
+1118,INE750C01026,Marksans Pharma Limited
+1119,INE00SZ01018,Marshall Machines Limited
+1120,INE585B01010,Maruti Suzuki India Limited
+1121,INE348L01012,MAS Financial Services Limited
+1122,INE885F01015,Mask Investments Limited
+1123,INE759A01021,Mastek Limited
+1124,INE866R01028,Matrimony.Com Limited
+1125,INE636A01039,Mawana Sugars Limited
+1126,INE03EI01018,Max Estates Limited
+1127,INE027H01010,Max Healthcare Institute Limited
+1128,INE0CG601016,Max India Limited
+1129,INE040D01038,Mayur Uniquoters Ltd
+1130,INE885E01034,Mazda Limited
+1131,INE249Z01012,Mazagon Dock Shipbuilders Limited
+1132,INE900L01010,Madhya Bharat Agro Products Limited
+1133,INE748A01016,Mcnally Bharat Engineering Company Limited
+1134,INE912H01013,MBL Infrastructure Limited
+1135,INE813V01022,Madhav Copper Limited
+1136,INE942G01012,Mcleod Russel India Limited
+1137,INE745G01035,Multi Commodity Exchange of India Limited
+1138,INE474Q01031,Global Health Limited
+1139,INE456Z01021,Medi Assist Healthcare Services Limited
+1140,INE646B01010,Medicamen Biotech Limited
+1141,INE630Y01024,Medico Remedies Limited
+1142,INE804L01022,Medplus Health Services Limited
+1143,INE933B01012,Megasoft Limited
+1144,INE00EM01016,Megastar Foods Limited
+1145,INE071D01033,Menon Bearings Limited
+1146,INE776I01010,MEP Infrastructure Developers Limited
+1147,INE317I01021,Metro Brands Limited
+1148,INE112L01020,Metropolis Healthcare Limited
+1149,INE0US801024,Mahalaxmi Fabric Mills Limited
+1150,INE180A01020,Max Financial Services Limited
+1151,INE0APB01024,Mangalam Global Enterprise Limited
+1152,INE002S01010,Mahanagar Gas Limited
+1153,INE112D01035,Mahalaxmi Rubtech Limited
+1154,INE998I01010,Mahindra Holidays & Resorts India Limited
+1155,INE287C01037,MIC Electronics Limited
+1156,INE099Z01011,Mishra Dhatu Nigam Limited
+1157,INE842C01021,Minda Corporation Limited
+1158,INE110B01017,Mindteck (India) Limited
+1159,INE831A01028,MIRC Electronics Limited
+1160,INE771A01026,Mirza International Limited
+1161,INE828O01033,MITCON Consultancy & Engineering Services Limited
+1162,INE997Y01027,Mittal Life Style Limited
+1163,INE964W01021,M K Proteins Limited
+1164,INE227C01017,MM Forgings Limited
+1165,INE511Y01018,MMP Industries Limited
+1166,INE123F01029,MMTC Limited
+1167,INE832A01018,Modi Rubber Limited
+1168,INE737D01021,MODISON LIMITED
+1169,INE794W01014,Modern Threads (India) Limited
+1170,INE954E01012,Mohit Industries Limited
+1171,INE490G01020,MOIL Limited
+1172,INE514Y01020,Moksh Ornaments Limited
+1173,INE0CT101020,Meghmani Organics Limited
+1174,INE835B01035,Mold-Tek Technologies Limited
+1175,INE893J01029,Mold-Tek Packaging Limited
+1176,INE903D01011,Monarch Networth Capital Limited
+1177,INE950M01013,Monte Carlo Fashions Limited
+1178,INE161G01027,Morarjee Textiles Limited
+1179,INE083A01026,Morepen Laboratories Limited
+1180,INE775A01035,Samvardhana Motherson International Limited
+1181,INE338I01027,Motilal Oswal Financial Services Limited
+1182,INE0FRK01012,Motisons Jewellers Limited
+1183,INE861B01023,The Motor & General Finance Limited
+1184,INE356A01018,MphasiS Limited
+1185,INE943D01017,MPS Limited
+1186,INE883A01011,MRF Limited
+1187,INE398B01018,MRO-TEK Realty Limited
+1188,INE103A01014,Mangalore Refinery and Petrochemicals Limited
+1189,INE752G01015,MSP Steel & Power Limited
+1190,INE255X01014,Mstc Limited
+1191,INE0FS801015,Motherson Sumi Wiring India Limited
+1192,INE864I01014,Mtar Technologies Limited
+1193,INE472M01018,MT Educare Limited
+1194,INE153A01019,Mahanagar Telephone Nigam Limited
+1195,INE08KJ01020,Mufin Green Finance Limited
+1196,INE220Q01020,Credo Brands Marketing Limited
+1197,INE304A01026,Mukand Limited
+1198,INE0CG401037,Mukka Proteins Limited
+1199,INE374B01019,Mukta Arts Limited
+1200,INE672B01032,Munjal Auto Industries Limited
+1201,INE577A01027,Munjal Showa Limited
+1202,INE692B01014,Murudeshwar Ceramics Limited
+1203,INE296G01013,Muthoot Capital Services Limited
+1204,INE414G01012,Muthoot Finance Limited
+1205,INE046W01019,Muthoot Microfin Limited
+1206,INE0KNT01012,Manoj Vaibhav Gems N Jewellers Limited
+1207,INE295D01020,NACL Industries Limited
+1208,INE454M01024,Nagarjuna Fertilizers and Chemicals Limited
+1209,INE245I01016,Nagreeka Capital & Infrastructure Limited
+1210,INE123B01028,Nagreeka Exports Limited
+1211,INE049I01012,Nahar Capital and Financial Services Limited
+1212,INE289A01011,Nahar Industrial Enterprises Limited
+1213,INE308A01027,Nahar Poly Films Limited
+1214,INE290A01027,Nahar Spinning Mills Limited
+1215,INE298J01013,Nippon Life India Asset Management Limited
+1216,INE117Z20011,Narmada Agrobase Ltd-RE
+1217,INE117Z01011,Narmada Agrobase Limited
+1218,INE987B01026,Natco Pharma Limited
+1219,INE448G01010,Nath Bio-Genes (India) Limited
+1220,INE139A01034,National Aluminium Company Limited
+1221,INE663F01024,Info Edge (India) Limited
+1222,INE725A01022,NAVA LIMITED
+1223,INE048G01026,Navin Fluorine International Limited
+1224,INE278M01019,Navkar Corporation Limited
+1225,INE060A01024,Navneet Education Limited
+1226,INE418L01021,Nazara Technologies Limited
+1227,INE095N01031,NBCC (India) Limited
+1228,INE365I01020,N. B. I. Industrial Finance Company Limited
+1229,INE868B01028,NCC Limited
+1230,INE732C01016,NCL Industries Limited
+1231,INE756C01015,Naga Dhunseri Group Limited
+1232,INE875G01048,Nandan Denim Limited
+1233,INE353A01023,NDL Ventures Limited
+1234,INE07OG01012,Ndr Auto Components Limited
+1235,INE155G01029,New Delhi Television Limited
+1236,INE553C01016,North Eastern Carrying Corporation Limited
+1237,INE023H01027,Nectar Lifesciences Limited
+1238,INE189I01024,Nelcast Limited
+1239,INE045B01015,NELCO Limited
+1240,INE136S01016,Neogen Chemicals Limited
+1241,INE317F01035,Nesco Limited
+1242,INE239A01024,Nestle India Limited
+1243,INE0NT901020,Netweb Technologies India Limited
+1244,INE870H01013,Network18 Media & Investments Limited
+1245,INE794A01010,Neuland Laboratories Limited
+1246,INE619B01017,Newgen Software Technologies Limited
+1247,INE747B01016,Next Mediaworks Limited
+1248,INE870D01012,National Fertilizers Limited
+1249,INE236Y01012,Nakoda Group of Industries Limited
+1250,INE887E01022,NGL Fine-Chem Limited
+1251,INE410P01011,Narayana Hrudayalaya Ltd.
+1252,INE848E01016,NHPC Limited
+1253,INE470Y01017,The New India Assurance Company Limited
+1254,INE047O01014,NRB Industrial Bearings Limited
+1255,INE161A01038,NIIT Limited
+1256,INE342G01023,NIIT Learning Systems Limited
+1257,INE937C01029,Nila Infrastructures Limited
+1258,INE00S901012,Nila Spaces Limited
+1259,INE310A01015,Nilkamal Limited
+1260,INE395U01014,NINtec Systems Limited
+1261,INE567A01028,Indo-National Limited
+1262,INE368I01016,Niraj Cement Structurals Limited
+1263,INE326T01011,Niraj Ispat Industries Limited
+1264,INE858F01012,Nitco Limited
+1265,INE229H01012,Nitin Spinners Limited
+1266,INE439T01012,Nitiraj Engineers Limited
+1267,INE542C01019,NK Industries Limited
+1268,INE589A01014,NLC India Limited
+1269,INE584A01023,NMDC Limited
+1270,INE163A01018,NOCIL Limited
+1271,INE781B01015,Noida Toll Bridge Company Limited
+1272,INE369C01017,Norben Tea & Exports Limited
+1273,INE850M01015,Northern Arc Capital Limited
+1274,INE02H701025,Nova Agritech Limited
+1275,INE740D01017,N R Agarwal Industries Limited
+1276,INE349A01021,NRB Bearing Limited
+1277,INE0JM501013,Nupur Recyclers Limited
+1278,INE023A01030,Nalwa Sons Investments Limited
+1279,INE0NNS01018,NMDC Steel Limited
+1280,INE333I01036,Neueon Towers Limited
+1281,INE733E01010,NTPC Limited
+1282,INE096B01018,Nucleus Software Exports Limited
+1283,INE0DSF01015,Nureca Limited
+1284,INE531F01015,Nuvama Wealth Management Limited
+1285,INE118D01016,Nuvoco Vistas Corporation Limited
+1286,INE388Y01029,FSN E-Commerce Ventures Limited
+1287,INE959C01023,Oriental Aromatics Limited
+1288,INE426Z01016,Orissa Bengal Carrier Limited
+1289,INE093I01010,Oberoi Realty Limited
+1290,INE321D01016,Oriental Carbon & Chemicals Limited
+1291,INE881D01027,Oracle Financial Services Software Limited
+1292,INE274J01014,Oil India Limited
+1293,INE591A01010,Oil Country Tubular Limited
+1294,INE0LXG01040,Ola Electric Mobility Limited
+1295,INE260D01016,Olectra Greentech Limited
+1296,INE090B01011,Omax Autos Limited
+1297,INE800H01010,Omaxe Limited
+1298,INE239D01028,OM INFRA LIMITED
+1299,INE474L01016,Omkar Speciality Chemicals Limited
+1300,INE912L01015,Onelife Capital Advisors Limited
+1301,INE840Y01029,One Point One Solutions Limited
+1302,INE213A01029,Oil & Natural Gas Corporation Limited
+1303,INE809I01019,OnMobile Global Limited
+1304,INE229A01017,Onward Technologies Limited
+1305,INE350C01017,Optiemus Infracom Limited
+1306,INE231G01010,Orbit Exports Limited
+1307,INE191A01027,Orchid Pharma Limited
+1308,INE730A01022,Oricon Enterprises Limited
+1309,INE998H01012,Oriental Trimex Limited
+1310,INE607D01018,Orient Bell Limited
+1311,INE876N01018,Orient Cement Limited
+1312,INE569C01020,ORIENT CERATECH LIMITED
+1313,INE142Z01019,Orient Electric Limited
+1314,INE750A01020,Oriental Hotels Limited
+1315,INE609C01024,Orient Press Limited
+1316,INE592A01026,Orient Paper & Industries Limited
+1317,INE0PPK01015,Orient Technologies Limited
+1318,INE725E01024,The Orissa Minerals Development Company Limited
+1319,INE849L01019,Ortel Communications Limited
+1320,INE749B01020,ORTIN GLOBAL LIMITED
+1321,INE06IR01021,Osia Hyper Retail Limited
+1322,INE142A01012,Oswal Agro Mills Limited
+1323,INE143A01010,Oswal Greentech Limited
+1324,INE00IK01029,ShreeOswal Seeds And Chemicals Limited
+1325,INE761H01022,Page Industries Limited
+1326,INE420C01059,Paisalo Digital Limited
+1327,INE551D01018,PAKKA LIMITED
+1328,INE471W01019,Palash Securities Limited
+1329,INE218G01033,Palred Technologies Limited
+1330,INE922B01023,Panacea Biotec Limited
+1331,INE895W01019,Panache Digilife Limited
+1332,INE305C01029,Panama Petrochem Limited
+1333,INE697V01011,Pansari Developers Limited
+1334,INE04LG01015,Par Drugs And Chemicals Limited
+1335,INE074B01023,Paramount Communications Limited
+1336,INE088F01024,Paradeep Phosphates Limited
+1337,INE883N01014,Parag Milk Foods Limited
+1338,INE045601015,Paras Defence and Space Technologies Limited
+1339,INE162C01024,Paras Petrofils Limited
+1340,INE988S01028,Apeejay Surrendra Park Hotels Limited
+1341,INE561H01026,Parsvnath Developers Limited
+1342,INE818B01023,Pasupati Acrylon Limited
+1343,INE619A01035,Patanjali Foods Limited
+1344,INE244B01030,Patel Engineering Limited
+1345,INE529D01014,Patel Integrated Logistics Limited
+1346,INE07S101020,Pavna Industries Limited
+1347,INE982J01020,One 97 Communications Limited
+1348,INE602A01031,PCBL LIMITED
+1349,INE785M01013,PC Jeweller Limited
+1350,INE865T01018,Pudumjee Paper Products Limited
+1351,INE111Q01021,PDS Limited
+1352,INE844A01013,Pearl Polymers Limited
+1353,INE140A01024,Piramal Enterprises Limited
+1354,INE932A01024,Pennar Industries Limited
+1355,INE138A01028,Peninsula Land Limited
+1356,INE262H01021,Persistent Systems Limited
+1357,INE347G01014,Petronet LNG Limited
+1358,INE134E01011,Power Finance Corporation Limited
+1359,INE182A01018,Pfizer Limited
+1360,INE367G01038,Prime Focus Limited
+1361,INE560K01014,PTC India Financial Services Limited
+1362,INE457L01029,PG Electroplast Limited
+1363,INE179A01014,Procter & Gamble Hygiene and Health Care Limited
+1364,INE199A01012,Procter & Gamble Health Limited
+1365,INE940H01022,Pearl Global Industries Limited
+1366,INE211B01039,The Phoenix Mills Limited
+1367,INE318A01026,Pidilite Industries Limited
+1368,INE557Z01018,Power & Instrumentation (Gujarat) Limited
+1369,INE603J01030,PI Industries Limited
+1370,INE417C01014,Pilani Investment and Industries Corporation Limited
+1371,INE600A01035,PIL ITALICA LIFESTYLE LIMITED
+1372,INE156C01018,Pioneer Embroideries Limited
+1373,INE450D01021,Pitti Engineering Limited
+1374,INE751B01018,Pix Transmissions Limited
+1375,INE431F01018,The Peria Karamalai Tea & Produce Company Limited
+1376,INE083C01022,Plastiblends India Limited
+1377,INE0PT501018,Platinum Industries Limited
+1378,INE0INJ01017,Plaza Wires Limited
+1379,INE160A01022,Punjab National Bank
+1380,INE859A01011,PNB Gilts Limited
+1381,INE572E01012,PNB Housing Finance Limited
+1382,INE392B01011,Pritish Nandy Communications Limited
+1383,INE195J01029,PNC Infratech Limited
+1384,INE953R01016,P N Gadgil Jewellers Limited
+1385,INE063E01046,Pondy Oxides & Chemicals Limited
+1386,INE888B01018,Poddar Housing and Development Limited
+1387,INE371C01013,Poddar Pigments Limited
+1388,INE637C01025,Pokarna Limited
+1389,INE417T01026,PB Fintech Limited
+1390,INE455K01017,Polycab India Limited
+1391,INE205C01021,Poly Medicure Limited
+1392,INE633B01018,Polyplex Corporation Limited
+1393,INE838E01017,Ponni Sugars (Erode) Limited
+1394,INE511C01022,Poonawalla Fincorp Limited
+1395,INE752E01010,Power Grid Corporation of India Limited
+1396,INE07Y701011,Hitachi Energy India Limited
+1397,INE211R01019,Power Mech Projects Limited
+1398,INE095I01015,PPAP Automotive Limited
+1399,INE050001010,Prakash Pipes Limited
+1400,INE0DK501011,Piramal Pharma Limited
+1401,INE505C01016,Prajay Engineers Syndicate Limited
+1402,INE074A01025,Praj Industries Limited
+1403,INE603A01013,Prakash Industries Limited
+1404,INE696K01024,Prakash Steelage Limited
+1405,INE546Y01022,Praxis Home Retail Limited
+1406,INE484I01029,Precision Camshafts Limited
+1407,INE283A01014,Precot Limited
+1408,INE372C01037,Precision Wires India Limited
+1409,INE863B01029,Premier Explosives Limited
+1410,INE342A01018,Premier Limited
+1411,INE0BS701011,Premier Energies Limited
+1412,INE309M01012,Premier Polyfilm Limited
+1413,INE811K01011,Prestige Estates Projects Limited
+1414,INE726V01018,Pricol Limited
+1415,INE032B01021,Prime Securities Limited
+1416,INE689W01016,Prince Pipes And Fittings Limited
+1417,INE974Z01015,Priti International Limited
+1418,INE583R01029,Pritika Auto Industries Limited
+1419,INE959A01019,Privi Speciality Chemicals Limited
+1420,INE195N01013,Prozone Realty Limited
+1421,INE010A01011,Prism Johnson Limited
+1422,INE00F201020,Prudent Corporate Advisory Services Limited
+1423,INE024D01016,Prudential Sugar Corporation Limited
+1424,INE608A01012,Punjab & Sind Bank
+1425,INE488V01015,PSP Projects Limited
+1426,INE877F01012,PTC India Limited
+1427,INE596F01018,PTC Industries Limited
+1428,INE034D01049,PTL Enterprises Limited
+1429,INE277B01014,Punjab Chemicals & Crop Protection Limited
+1430,INE323I01011,Puravankara Limited
+1431,INE362A01016,PVP Ventures Limited
+1432,INE191H01014,PVR INOX Limited
+1433,INE772T01024,Popular Vehicles and Services Limited
+1434,INE0MIS01010,Pyramid Technoplast Limited
+1435,INE615P01015,Quess Corp Limited
+1436,INE306L01010,Quick Heal Technologies Limited
+1437,INE033B01011,Quintegra Solutions Limited
+1438,INE084Q01012,Race Eco Chain Limited
+1439,INE874F01027,Radaan Mediaworks India Limited
+1440,INE583V01021,Radhika Jeweltech Limited
+1441,INE855R01021,Radiant Cash Management Services Limited
+1442,INE944F01028,Radico Khaitan Limited
+1443,INE919I01024,Music Broadcast Limited
+1444,INE0DD101019,Railtel Corporation Of India Limited
+1445,INE855B01025,Rain Industries Limited
+1446,INE961O01016,Rainbow Childrens Medicare Limited
+1447,INE343B01030,Rajesh Exports Limited
+1448,INE00KV01022,Rajnandini Metal Limited
+1449,INE451D01029,Rajratan Global Wire Limited
+1450,INE533D01032,Raj Rayon Industries Limited
+1451,INE562B01019,Rajshree Sugars & Chemicals Limited
+1452,INE952H01027,Raj Television Network Limited
+1453,INE011H01014,Rajvir Industries Limited
+1454,INE613A01020,Rallis India Limited
+1455,INE278B01020,Shree Rama Newsprint Limited
+1456,INE809A01024,Rama Phosphates Limited
+1457,INE230R01035,Rama Steel Tubes Limited
+1458,INE331A01037,The Ramco Cements Limited
+1459,INE614A01028,Ramco Industries Limited
+1460,INE246B01019,Ramco Systems Limited
+1461,INE874I01013,Ramky Infrastructure Limited
+1462,INE207E01023,Ram Ratna Wires Limited
+1463,INE625B01014,Rana Sugars Limited
+1464,INE222J01013,Rane Engine Valve Limited
+1465,INE384A01010,Rane Holdings Limited
+1466,INE0CLI01024,Rategain Travel Technologies Limited
+1467,INE703B01027,Ratnamani Metals & Tubes Limited
+1468,INE05CZ01011,Ratnaveer Precision Engineering Limited
+1469,INE301A01014,Raymond Limited
+1470,INE02ID01020,Raymond Lifestyle Limited
+1471,INE07T201019,Restaurant Brands Asia Limited
+1472,INE244J01017,Rane Brake Lining Limited
+1473,INE976G01028,RBL Bank Limited
+1474,INE0PEQ01016,RBZ Jewellers Limited
+1475,INE027A01015,Rashtriya Chemicals and Fertilizers Limited
+1476,INE330H01018,Reliance Communications Limited
+1477,INE020B01018,REC Limited
+1478,INE891D01026,Redington Limited
+1479,INE0LXT01019,Redtape Limited
+1480,INE056I01025,Refex Industries Limited
+1481,INE277C01012,Regency Ceramics Limited
+1482,INE131B01039,Relaxo Footwears Limited
+1483,INE750D01016,Reliance Chemotex Industries Limited
+1484,INE375Y01018,Reliable Data Services Limited
+1485,INE002A01018,Reliance Industries Limited
+1486,INE621H01010,Religare Enterprises Limited
+1487,INE036A01016,Reliance Infrastructure Limited
+1488,INE206N01018,Ravindra Energy Limited
+1489,INE474C01023,Remsons Industries Limited
+1490,INE087H01022,Shree Renuka Sugars Limited
+1491,INE612J01015,Repco Home Finance Limited
+1492,INE364Z01019,Rudrabhishek Enterprises Limited
+1493,INE461B01014,Repro India Limited
+1494,INE688D01026,Responsive Industries Limited
+1495,INE03DD01011,JHS Svendgaard Retail Ventures Limited
+1496,INE0DAB01012,Revathi Equipment India Limited
+1497,INE722H01024,Renaissance Global Limited
+1498,INE217K01011,Reliance Home Finance Limited
+1499,INE743M01012,RHI MAGNESITA INDIA LIMITED
+1500,INE508K01013,Robust Hotels Limited
+1501,INE209B01025,Rico Auto Industries Limited
+1502,INE046A01015,Reliance Industrial Infrastructure Limited
+1503,INE0N2P01017,Rishabh Instruments Limited
+1504,INE01EG01016,Ritco Logistics Limited
+1505,INE320J01015,RITES Limited
+1506,INE722J01012,Ravi Kumar Distilleries Limited
+1507,INE786W01010,RKEC Projects Limited
+1508,INE399G01023,Ramkrishna Forgings Limited
+1509,INE0NQ801033,R K Swamy Limited
+1510,INE050H01012,Rane (Madras) Limited
+1511,INE283H01019,Royal Orchid Hotels Limited
+1512,INE645S01016,Rolex Rings Limited
+1513,INE927A01040,Rollatainers Limited
+1514,INE293A01013,Rolta India Limited
+1515,INE294G01026,Raj Oil Mills Limited
+1516,INE02A801020,Rossari Biotech Limited
+1517,INE847C01020,Rossell India Limited
+1518,INE535D01029,Roto Pumps Limited
+1519,INE450U01017,ROUTE MOBILE LIMITED
+1520,INE912T01018,Raghav Productivity Enhancers Limited
+1521,INE105J01010,RPG Life Sciences Limited
+1522,INE614G01033,Reliance Power Limited
+1523,INE324L01013,R.P.P. Infra Projects Limited
+1524,INE760W01023,Rajshree Polypack Limited
+1525,INE425Y01011,RPSG VENTURES LIMITED
+1526,INE0J1F01024,Rashi Peripherals Limited
+1527,INE777K01022,R R Kabel Limited
+1528,INE165B01029,R. S. Software (India) Limited
+1529,INE611A01016,RSWM Limited
+1530,INE411H01032,R Systems International Limited
+1531,INE834M01019,RattanIndia Enterprises Limited
+1532,INE399K01017,RattanIndia Power Limited
+1533,INE642C01025,Rubfila International Limited
+1534,INE301D01026,The Ruby Mills Limited
+1535,INE413B01023,Ruchi Infrastructure Limited
+1536,INE803H01014,Ruchira Papers Limited
+1537,INE895B01021,Rupa & Company Limited
+1538,INE573K01025,Rushil Decor Limited
+1539,INE263M01029,Keystone Realtors Limited
+1540,INE09E501017,Ravinder Heights Limited
+1541,INE415G01027,Rail Vikas Nigam Limited
+1542,INE902B01017,S&S Power Switchgears Limited
+1543,INE860T01019,Sab Events & Governance Now Media Limited
+1544,INE416A01044,Sri Adhikari Brothers Television Network Limited
+1545,INE226H01026,Sadbhav Engineering Limited
+1546,INE764L01010,Sadbhav Infrastructure Project Limited
+1547,INE888C01040,Sadhana Nitrochem Limited
+1548,INE429E01023,Safari Industries (India) Limited
+1549,INE976T01013,Sagardeep Alloys Limited
+1550,INE229C01021,Sagar Cements Limited
+1551,INE035801013,Sah Polymers Limited
+1552,INE280H01015,Sahyadri Industries Limited
+1553,INE114A01011,Steel Authority of India Limited
+1554,INE732S01012,Sakar Healthcare Limited
+1555,INE623A01011,Sakthi Sugars Limited
+1556,INE667G01023,Saksoft Limited
+1557,INE190H01024,Sakuma Exports Limited
+1558,INE170V01027,Salasar Techno Engineering Limited
+1559,INE498E01010,Salona Cotspin Limited
+1560,INE658G01014,S.A.L. Steel Limited
+1561,INE457F01013,Salzer Electronics Limited
+1562,INE699B01027,Sambhaav Media Limited
+1563,INE08U801020,Samhi Hotels Limited
+1564,INE148I01020,Sammaan Capital Limited
+1565,INE735M01018,Sampann Utpadan India Limited
+1566,INE782L01012,Sanco Industries Limited
+1567,INE583B01015,The Sandesh Limited
+1568,INE278H01035,Sandhar Technologies Limited
+1569,INE149K01016,Sandur Manganese & Iron Ores Limited
+1570,INE495C01010,Sangam (India) Limited
+1571,INE999B01013,Sanghi Industries Limited
+1572,INE989A01032,Sanghvi Movers Limited
+1573,INE753W01010,Sanginita Chemicals Limited
+1574,INE058A01010,Sanofi India Limited
+1575,INE0UOS01011,Sanofi Consumer Healthcare India Limited
+1576,INE953O01021,Sansera Engineering Limited
+1577,INE08NE01025,Sanstar Limited
+1578,INE890C01046,Sanwaria Consumer Limited
+1579,INE806T01020,Sapphire Foods India Limited
+1580,INE385C01021,Sarda Energy & Minerals Limited
+1581,INE979A01025,Saregama India Limited
+1582,INE453D01025,Sarla Performance Fibers Limited
+1583,INE324X01026,Sarveshwar Foods Limited
+1584,INE231F01020,Sasken Technologies Limited
+1585,INE019J01013,Sastasundar Ventures Limited
+1586,INE170E01023,Satia Industries Limited
+1587,INE836B01017,Satin Creditcare Network Limited
+1588,INE065D01027,Sat Industries Limited
+1589,INE626A01014,Saurashtra Cement Limited
+1590,INE04AK01028,SBC Exports Limited
+1591,INE386D01027,Shivalik Bimetal Controls Limited
+1592,INE423Y01016,SBFC Finance Limited
+1593,INE05ST01028,Suratwwala Business Group Limited
+1594,INE018E01016,SBI Cards and Payment Services Limited
+1595,INE123W01016,SBI Life Insurance Company Limited
+1596,INE062A01020,State Bank of India
+1597,INE513A01022,Schaeffler India Limited
+1598,INE807K01035,S Chand And Company Limited
+1599,INE839M01018,Schneider Electric Infrastructure Limited
+1600,INE109A01011,Shipping Corporation Of India Limited
+1601,INE0PB301013,Shipping Corporation of India Land and Assets Limited
+1602,INE501Y01019,Sheetal Cool Products Limited
+1603,INE480C01038,Som Distilleries & Breweries Limited
+1604,INE497B01018,Seamec Limited
+1605,INE0BTM01013,SecMark Consultancy Limited
+1606,INE195Y01010,SecUR Credentials Limited
+1607,INE650K01021,SECUREKLOUD TECHNOLOGIES LIMITED
+1608,INE955I01044,Sejal Glass Limited
+1609,INE818A01017,Selan Exploration Technology Limited
+1610,INE105I01020,SEL Manufacturing Company Limited
+1611,INE617A01013,SEMAC CONSULTANTS LIMITED
+1612,INE602W01019,Senco Gold Limited
+1613,INE964H01014,SEPC Limited
+1614,INE807F01027,Sequent Scientific Limited
+1615,INE782X01033,Servotech Power Systems Limited
+1616,INE630A01024,Seshasayee Paper and Boards Limited
+1617,INE878E01021,Setco Automotive Limited
+1618,INE023M01027,Setubandhan Infrastructure Limited
+1619,INE573R01012,Seya Industries Limited
+1620,INE916U01025,Sheela Foam Limited
+1621,INE00QT01015,Synergy Green Industries Limited
+1622,INE00QT20015,Synergy Green Ind Ltd-RE
+1623,INE353H01010,STL Global Limited
+1624,INE482J01021,Shah Metacorp Limited
+1625,INE640C01011,Shah Alloys Limited
+1626,INE151G01028,Shaily Engineering Plastics Limited
+1627,INE908D01010,Shakti Pumps (India) Limited
+1628,INE597J01018,Shalby Limited
+1629,INE849C01026,Shalimar Paints Limited
+1630,INE274V01019,Shankara Building Products Limited
+1631,INE933X01016,Shanti Overseas (India) Limited
+1632,INE631A01022,Shanthi Gears Limited
+1633,INE221J01015,Sharda Cropchem Limited
+1634,INE597I01028,Sharda Motor Industries Limited
+1635,INE932X01026,Share India Securities Limited
+1636,INE268L01046,Shekhawati Industries Limited
+1637,INE363M01019,Shemaroo Entertainment Limited
+1638,INE790G01031,Shilpa Medicare Limited
+1639,INE788J01021,Shivalik Rasayan Limited
+1640,INE637H01024,Shivam Autotech Limited
+1641,INE644Y01017,Shiva Mills Limited
+1642,INE705C01020,Shiva Texyarn Limited
+1643,INE500L01026,S H Kelkar and Company Limited
+1644,INE498B01024,Shoppers Stop Limited
+1645,INE715Y01023,Shradha Infraprojects Limited
+1646,INE232A01011,Shree Digvijay Cement Co.Ltd
+1647,INE070A01015,SHREE CEMENT LIMITED
+1648,INE712K01011,Shree Pushkar Chemicals & Fertilisers Limited
+1649,INE879A01019,Shree Rama Multi-Tech Limited
+1650,INE632X01030,Shrenik Limited
+1651,INE231C01019,Shreyans Industries Limited
+1652,INE757B01015,Shreyas Shipping & Logistics Limited
+1653,INE526E01018,Shriram Pistons & Rings Limited
+1654,INE721A01013,Shriram Finance Limited
+1655,INE217L01019,Shriram Properties Limited
+1656,INE979R01011,Shyam Century Ferrous Limited
+1657,INE810G01011,Shyam Metalics and Energy Limited
+1658,INE635A01023,Shyam Telecom Limited
+1659,INE075B01020,Sical Logistics Limited
+1660,INE003A01024,Siemens Limited
+1661,INE0D0K01022,Sigachi Industries Limited
+1662,INE529F01035,Signet Industries Limited
+1663,INE0A0S01010,Sigma Solve Limited
+1664,INE903U01023,Signatureglobal (India) Limited
+1665,INE0KGZ01021,Signpost India Limited
+1666,INE112X01017,Sikko Industries Limited
+1667,INE173A01025,Standard Industries Limited
+1668,INE01II01013,Silgo Retail Limited
+1669,INE923A01015,SIL Investments Limited
+1670,INE203Y01012,Silly Monks Entertainment Limited
+1671,INE625X01018,Silver Touch Technologies Limited
+1672,INE748T01016,Simbhaoli Sugars Limited
+1673,INE059B01024,Simplex Infrastructures Limited
+1674,INE985A01022,Sinclairs Hotels Limited
+1675,INE325D01025,Sindhu Trade Links Limited
+1676,INE129Z01016,Sintercom India Limited
+1677,INE792Z01011,Sirca Paints India Limited
+1678,INE285J01028,SIS LIMITED
+1679,INE965H01011,Siti Networks Limited
+1680,INE076B01028,Siyaram Silk Mills Limited
+1681,INE284S01014,S.J.S. Enterprises Limited
+1682,INE002L01015,SJVN Limited
+1683,INE640A01023,SKF India Limited
+1684,INE429F01012,SKIL Infrastructure Limited
+1685,INE439E01022,Skipper Limited
+1686,INE411D01015,SKM Egg Products Export (India) Limited
+1687,INE01IU01018,Sky Gold Limited
+1688,INE178C01020,Smartlink Holdings Limited
+1689,INE103C01036,SMC Global Securities Limited
+1690,INE294B01019,SML Isuzu Limited
+1691,INE017W01010,Sarthak Metals Limited
+1692,INE320X01016,SMS Lifesciences India Limited
+1693,INE812G01025,SMS Pharmaceuticals Limited
+1694,INE734N01019,Snowman Logistics Limited
+1695,INE671H01015,Sobha Limited
+1696,INE728Z01015,Softtech Engineers Limited
+1697,INE624Z01016,Solara Active Pharma Sciences Limited
+1698,INE343H01029,Solar Industries India Limited
+1699,INE355A01028,Somany Ceramics Limited
+1700,INE314C01013,Soma Textiles & Industries Limited
+1701,INE323J01019,Somi Conveyor Beltings Limited
+1702,INE073K01018,Sona BLW Precision Forgings Limited
+1703,INE00LM01029,SONAM LIMITED
+1704,INE269A01021,Sonata Software Limited
+1705,INE035D01020,Savita Oil Technologies Limited
+1706,INE683A01023,The South Indian Bank Limited
+1707,INE980Y01015,South West Pinnacle Exploration Limited
+1708,INE212I01016,S. P. Apparels Limited
+1709,INE572J01011,Spandana Sphoorty Financial Limited
+1710,INE232I01014,Sun Pharma Advanced Research Company Limited
+1711,INE970N01027,Spacenet Enterprises India Limited
+1712,INE247M01014,Speciality Restaurants Limited
+1713,INE020801028,Spencer's Retail Limited
+1714,INE147A01011,Southern Petrochemicals Industries Corporation  Limited
+1715,INE978G01016,SPL Industries Limited
+1716,INE663A01033,Supreme Petrochem Limited
+1717,INE937A01023,SPML Infra Limited
+1718,INE885H01029,Sportking India Limited
+1719,INE099F01013,Sreeleathers Limited
+1720,INE647A01010,SRF Limited
+1721,INE559N01010,SRG Housing Finance Limited
+1722,INE917H01012,Sree Rayalaseema Hi-Strength Hypo Limited
+1723,INE0R6Z01013,SRM Contractors Limited
+1724,INE008Z01020,Shree Ram Proteins Limited
+1725,INE0PQ101010,Saraswati Saree Depot Limited
+1726,INE802C01033,Steel Strips Wheels Limited
+1727,INE01A001028,Stanley Lifestyles Limited
+1728,INE939A01011,Strides Pharma Science Limited
+1729,INE460H01021,Star Cement Limited
+1730,INE575P01011,Star Health and Allied Insurance Company Limited
+1731,INE733A01018,Star Paper Mills Limited
+1732,INE992I01013,Starteck Finance Limited
+1733,INE655A01013,The State Trading Corporation of India Limited
+1734,INE124E01020,Steelcast Limited
+1735,INE395H01011,Steel City Securities Limited
+1736,INE503B01021,STEEL EXCHANGE INDIA LIMITED
+1737,INE577L01016,Stel Holdings Limited
+1738,INE334A01023,Sterling Tools Limited
+1739,INE089C01029,Sterlite Technologies Limited
+1740,INE00IN01015,Stove Kraft Limited
+1741,INE239C01020,Stylam Industries Limited
+1742,INE01FR01028,Baazar Style Retail Limited
+1743,INE189B01011,Styrenix Performance Materials Limited
+1744,INE754A01055,Subex Limited
+1745,INE287B01021,Subros Limited
+1746,INE659A01023,Sudarshan Chemical Industries Limited
+1747,INE450E01011,Sukhjit Starch & Chemicals Limited
+1748,INE142Q01026,Sula Vineyards Limited
+1749,INE235C01010,Sumeet Industries Limited
+1750,INE258G01013,Sumitomo Chemical India Limited
+1751,INE748Z01013,Sumit Woods Limited
+1752,INE519C01017,Summit Securities Limited
+1753,INE0Q3R01026,Sundaram Clayton Limited
+1754,INE108E01023,Sundaram Multi Pap Limited
+1755,INE660A01013,Sundaram Finance Limited
+1756,INE202Z01029,Sundaram Finance Holdings Limited
+1757,INE073D01013,Sundaram Brake Linings Limited
+1758,INE387A01021,Sundram Fasteners Limited
+1759,INE947A01014,Sunflag Iron And Steel Company Limited
+1760,INE044A01036,Sun Pharmaceutical Industries Limited
+1761,INE805D01034,Sunteck Realty Limited
+1762,INE424H01027,Sun TV Network Limited
+1763,INE712B01010,Superhouse Limited
+1764,INE662A01027,Super Spinning Mills Limited
+1765,INE399C01030,Suprajit Engineering Limited
+1766,INE319Z01021,Supreme Engineering Limited
+1767,INE195A01028,Supreme Industries Limited
+1768,INE550H01011,Supreme Infrastructure India Limited
+1769,INE07RO01027,Supriya Lifescience Limited
+1770,INE843S01025,Suraj Estate Developers Limited
+1771,INE713C01016,Suraj Limited
+1772,INE272L01022,Surana Solar Limited
+1773,INE130B01031,Surana Telecom and Power Limited
+1774,INE713B01026,Suryalakshmi Cotton Mills Limited
+1775,INE335A01020,Surya Roshni Limited
+1776,INE428Q01011,Suryoday Small Finance Bank Limited
+1777,INE645H01027,Sutlej Textiles and Industries Limited
+1778,INE591Q01016,Suumaya Industries Limited
+1779,INE495B01038,Suven Life Sciences Limited
+1780,INE03QK01018,Suven Pharmaceuticals Limited
+1781,INE018401013,Suvidhaa Infoserve Limited
+1782,INE442P01014,Suyog Telematics Limited
+1783,INE040H01021,Suzlon Energy Limited
+1784,INE00CE01017,Shree Vasu Logistics Limited
+1785,INE308E01029,SVP GLOBAL TEXTILES LIMITED
+1786,INE665A01038,Swan Energy Limited
+1787,INE277A01016,Swaraj Engines Limited
+1788,INE409B01013,Swelect Energy Systems Limited
+1789,INE00M201021,Sterling and Wilson Renewable Energy Limited
+1790,INE225D01027,Symphony Limited
+1791,INE312C01025,Syncom Formulations (India) Limited
+1792,INE398R01022,Syngene International Limited
+1793,INE0DYJ01015,Syrma SGS Technology Limited
+1794,INE123C01018,Tainwala Chemical and Plastic (I) Limited
+1795,INE586B01026,Taj GVK Hotels & Resorts Limited
+1796,INE142I01023,Take Solutions Limited
+1797,INE187D01029,Talbros Automotive Components Limited
+1798,INE483C01032,Tanla Platforms Limited
+1799,INE555Z01012,Tara Chand InfraLogistic Solutions Limited
+1800,INE747K01017,Tarapur Transformers Limited
+1801,INE0EK901012,Anant Raj Global Limited
+1802,INE763I01026,Transformers And Rectifiers (India) Limited
+1803,INE924H01018,Tarmat Limited
+1804,INE144Z01023,Tarsons Products Limited
+1805,INE488B01017,Tasty Bite Eatables Limited
+1806,INE092A01019,Tata Chemicals Limited
+1807,INE151A01013,Tata Communications Limited
+1808,INE192A01025,TATA CONSUMER PRODUCTS LIMITED
+1809,INE670A01012,Tata Elxsi Limited
+1810,INE672A01018,Tata Investment Corporation Limited
+1811,INE155A01022,Tata Motors Limited
+1812,INE245A01021,Tata Power Company Limited
+1813,INE081A01020,Tata Steel Limited
+1814,INE142M01025,Tata Technologies Limited
+1815,INE0GK401011,Tatva Chintan Pharma Chem Limited
+1816,INE673O01025,TBO Tek Limited
+1817,INE760L01018,Tribhovandas Bhimji Zaveri Limited
+1818,INE688A01022,Transport Corporation of India Limited
+1819,INE586V01016,TCI Express Limited
+1820,INE911B01018,TCI Finance Limited
+1821,INE388G01026,Tantia Constructions Limited
+1822,INE822C01015,TCPL Packaging Limited
+1823,INE467B01029,Tata Consultancy Services Limited
+1824,INE419M01027,TD Power Systems Limited
+1825,INE985S01024,Teamlease Services Limited
+1826,INE778A01021,Techindia Nirman Limited
+1827,INE669C01036,Tech Mahindra Limited
+1828,INE285K01026,Techno Electric & Engineering Company Limited
+1829,INE014B01011,TECIL Chemicals and Hydro Power Limited
+1830,INE011K01018,Tega Industries Limited
+1831,INE010J01012,Tejas Networks Limited
+1832,INE869Y01010,Tembo Global Industries Limited
+1833,INE482B01010,Tera Software Limited
+1834,INE435C01024,Texmaco Infrastructure & Holdings Limited
+1835,INE141K01013,Texmo Pipes and Products Limited
+1836,INE621L01012,Texmaco Rail & Engineering Limited
+1837,INE305A01015,Tourism Finance Corporation of India Limited
+1838,INE804H01012,Transwarranty Finance Limited
+1839,INE797H01018,TGB Banquets And Hotels Limited
+1840,INE085J01014,Thangamayil Jewellery Limited
+1841,INE924D01017,The Investment Trust Of India Limited
+1842,INE121N01019,Thejo Engineering Limited
+1843,INE083B01024,Themis Medicare Limited
+1844,INE152A01029,Thermax Limited
+1845,INE332A01027,Thomas Cook  (India)  Limited
+1846,INE480M01011,Thomas Scott (India) Limited
+1847,INE594H01019,Thyrocare Technologies Limited
+1848,INE133E01013,Tilaknagar Industries Limited
+1849,INE484C01030,Tide Water Oil Company (India) Limited
+1850,INE545H01011,Technocraft Industries (India) Limited
+1851,INE974X01010,Tube Investments of India Limited
+1852,INE440L01017,Tijaria Polypipes Limited
+1853,INE806C01018,TIL Limited
+1854,INE289C01025,Times Guaranty Limited
+1855,INE508G01029,Time Technoplast Limited
+1856,INE325A01013,Timken India Limited
+1857,INE0LQS01015,Tips Films Limited
+1858,INE716B01029,Tips Music Limited
+1859,INE338A01024,Thirumalai Chemicals Limited
+1860,INE319Y01024,Tirupati Forge Limited
+1861,INE615H01020,TITAGARH RAIL SYSTEMS LIMITED
+1862,INE280A01028,Titan Company Limited
+1863,INE668A01016,Tamilnad Mercantile Bank Limited
+1864,INE148A01019,Tamilnadu PetroProducts Limited
+1865,INE107A01015,Tamil Nadu Newsprint & Papers Limited
+1866,INE141D01018,Tamilnadu Telecommunication Limited
+1867,INE932C01012,Tokyo Plast International Limited
+1868,INE0RWQ01014,Tolins Tyres Limited
+1869,INE685A01028,Torrent Pharmaceuticals Limited
+1870,INE813H01021,Torrent Power Limited
+1871,INE336X01012,Total Transport Systems Limited
+1872,INE486Y01013,Touchwood Entertainment Limited
+1873,INE065J01024,Teamo Productions HQ Limited
+1874,INE413G01022,TPL Plastech Limited
+1875,INE0HMF01019,Tracxn Technologies Limited
+1876,INE040M01013,Tree House Education & Accessories Limited
+1877,INE00CA01015,TREJHARA SOLUTIONS LIMITED
+1878,INE0O3901029,Transindia Real Estate Limited
+1879,INE849A01020,Trent Limited
+1880,INE391D01019,TRF Limited
+1881,INE064C01022,Trident Limited
+1882,INE948A01012,Trigyn Technologies Limited
+1883,INE152M01016,Triveni Turbine Limited
+1884,INE256C01024,Triveni Engineering & Industries Limited
+1885,INE615R01029,TruCap Finance Limited
+1886,INE910C01018,TTK Healthcare Limited
+1887,INE690A01028,TTK Prestige Limited
+1888,INE592B01016,T T Limited
+1889,INE517B01013,Tata Teleservices (Maharashtra) Limited
+1890,INE886H01027,TV18 Broadcast Limited
+1891,INE236G01019,TVS Electronics Limited
+1892,INE105A01035,TVS Holdings Limited
+1893,INE494B01023,TVS Motor Company Limited
+1894,INE395N01027,TVS Supply Chain Solutions Limited
+1895,INE421C01016,TVS Srichakra Limited
+1896,INE038F01029,TV Today Network Limited
+1897,INE871L01013,TV Vision Limited
+1898,INE686F01025,United Breweries Limited
+1899,INE139B01016,UCAL LIMITED
+1900,INE691A01018,UCO Bank
+1901,INE225C01029,Udaipur Cement Works Limited
+1902,INE851I01011,Updater Services Limited
+1903,INE899L01030,Ujaas Energy Limited
+1904,INE516A01017,UFLEX Limited
+1905,INE527H01019,UFO Moviez India Limited
+1906,INE071E01023,The Ugar Sugar Works Limited
+1907,INE583D01011,Ugro Capital Limited
+1908,INE551W01018,Ujjivan Small Finance Bank Limited
+1909,INE481G01011,UltraTech Cement Limited
+1910,INE0GIU01018,Uma Exports Limited
+1911,INE864B01027,Umang Dairies Limited
+1912,INE240C01028,Usha Martin Education & Solutions Limited
+1913,INE351A01035,Unichem Laboratories Limited
+1914,INE961D01019,United Drilling Tools Limited
+1915,INE00U401027,Unicommerce Esolutions Limited
+1916,INE037A01022,Uniphos Enterprises Limited
+1917,INE481Z01011,Uniinfo Telecom Services Limited
+1918,INE692A01016,Union Bank of India
+1919,INE244O01017,Uniparts India Limited
+1920,INE854D01024,United Spirits Limited
+1921,INE694A01020,Unitech Limited
+1922,INE368U01011,United Polyfab Gujarat Limited
+1923,INE458F01011,The United Nilgiri Tea Estates Company Limited
+1924,INE275F01019,Univa Foods Limited
+1925,INE562X01013,Univastu India Limited
+1926,INE279A01012,Universal Cables Limited
+1927,INE03V001013,Universus Photo Imagings Limited
+1928,INE405E01023,UNO Minda Limited
+1929,INE628A01036,UPL Limited
+1930,INE568Z01015,Uravi T and Wedge Lamps Limited
+1931,INE550C01020,Urja Global Limited
+1932,INE228A01035,Usha Martin Limited
+1933,INE0N0Y01013,Udayshivakumar Infra Limited
+1934,INE094J01016,UTI Asset Management Company Limited
+1935,INE735W01017,Utkarsh Small Finance Bank Limited
+1936,INE786F01031,Uttam Sugar Mills Limited
+1937,INE945H01013,V2 Retail Limited
+1938,INE694D01016,Vadilal Industries Limited
+1939,INE884A01027,Vaibhav Global Limited
+1940,INE972X01014,Vaishali Pharma Limited
+1941,INE051B01021,Vakrangee Limited
+1942,INE0JWS01017,Valiant Laboratories Limited
+1943,INE565V01010,Valiant Organics Limited
+1944,INE116G01013,Vardhman Acrylics Limited
+1945,INE835A01029,Vardhman Polytex Limited
+1946,INE665L01035,Varroc Engineering Limited
+1947,INE893I01013,Vascon Engineers Limited
+1948,INE590L01019,Vaswani Industries Limited
+1949,INE200M01039,Varun Beverages Limited
+1950,INE098201036,Vaxtex Cotfab Limited
+1951,INE205A01025,Vedanta Limited
+1952,INE398A01010,Venky's (India) Limited
+1953,INE0JA001018,Venus Pipes & Tubes Limited
+1954,INE411B01019,Venus Remedies Limited
+1955,INE0IQ001011,Veranda Learning Solutions Limited
+1956,INE188Y01023,Vertoz Limited
+1957,INE386A01015,Vesuvius India Limited
+1958,INE918N01018,Veto Switchgears And Cables Limited
+1959,INE951I01027,V-Guard Industries Limited
+1960,INE701A01023,Vardhman Holdings Limited
+1961,INE048C01025,Viceroy Hotels Limited
+1962,INE632C01026,Vidhi Specialty Food Ingredients Limited
+1963,INE043W01024,Vijaya Diagnostic Centre Limited
+1964,INE159N01027,Viji Finance Limited
+1965,INE806A01020,Vikas EcoTech Limited
+1966,INE161L01027,Vikas Lifecare Limited
+1967,INE579C01029,Vimta Labs Limited
+1968,INE410B01037,Vinati Organics Limited
+1969,INE707A01012,Vindhya Telelinks Limited
+1970,INE505Y01010,Vineet Laboratories Limited
+1971,INE01KI01027,Vinny Overseas Limited
+1972,INE250B01029,Vinyl Chemicals (India) Limited
+1973,INE450G01024,VIP Clothing Limited
+1974,INE054A01027,VIP Industries Limited
+1975,INE946H01037,Vipul Limited
+1976,INE539B01017,Virinchi Limited
+1977,INE392A01021,Visaka Industries Limited
+1978,INE286H01012,Visa Steel Limited
+1979,INE861A01058,Visesh Infotecnics Limited
+1980,INE270I01022,Vishnu Chemicals Limited
+1981,INE430N01022,Vishwaraj Sugar Industries Limited
+1982,INE370E01029,Visagar Polytex Limited
+1983,INE03HW01020,VL E-Governance & IT Solutions Limited
+1984,INE709A01018,VLS Finance Limited
+1985,INE665J01013,V-Mart Retail Limited
+1986,INE540H01012,Voltamp Transformers Limited
+1987,INE226A01021,Voltas Limited
+1988,INE0AE001013,Vishnu Prakash R Punglia Limited
+1989,INE0S2V01010,Vraj Iron and Steel Limited
+1990,INE366I01010,VRL Logistics Limited
+1991,INE050M01012,Vardhman Special Steels Limited
+1992,INE710A01016,VST Industries Limited
+1993,INE0QTF01015,Vibhor Steel Tubes Limited
+1994,INE764D01017,V.S.T Tillers Tractors Limited
+1995,INE825A01020,Vardhman Textiles Limited
+1996,INE956G01038,VA Tech Wabag Limited
+1997,INE711A01022,Walchandnagar Industries Limited
+1998,INE107F01022,Wanbury Limited
+1999,INE0CJF01024,Western Carriers (India) Limited
+2000,INE658T01017,Wealth First Portfolio Managers Limited
+2001,INE855C01015,Websol Energy System Limited
+2002,INE080A01014,Weizmann Limited
+2003,INE02WG01016,Wonder Electricals Limited
+2004,INE191B01025,Welspun Corp Limited
+2005,INE625G01013,Welspun Enterprises Limited
+2006,INE389K01018,Welspun Investments and Commercials Limited
+2007,INE192B01031,Welspun Living Limited
+2008,INE274C01019,Wendt (India) Limited
+2009,INE274F01020,WESTLIFE FOODWORLD LIMITED
+2010,INE082W01014,WE WIN LIMITED
+2011,INE715A01015,Wheels India Limited
+2012,INE716A01013,Whirlpool of India Limited
+2013,INE210A01017,Williamson Magor & Company Limited
+2014,INE0H5O01029,Windlas Biotech Limited
+2015,INE052A01021,Windsor Machines Limited
+2016,INE784B01035,Winsome Yarns Limited
+2017,INE215F01023,The Western India Plywoods Limited
+2018,INE075A01022,Wipro Limited
+2019,INE049B01025,Wockhardt Limited
+2020,INE066O01014,Wonderla Holidays Limited
+2021,INE196Y01018,Worth Peripherals Limited
+2022,INE100D01014,W S Industries (I) Limited
+2023,INE976A01021,West Coast Paper Mills Limited
+2024,INE692G01013,Xchanging Solutions Limited
+2025,INE01P501012,Xelpmoc Design And Tech Limited
+2026,INE445C01015,Xpro India Limited
+2027,INE547B01028,Xtglobal Infotech Limited
+2028,INE126M01010,Yaari Digital Integrated Services Limited
+2029,INE616Z01012,Yasho Industries Limited
+2030,INE0JO301016,Yatharth Hospital & Trauma Care Services Limited
+2031,INE0JR601024,Yatra Online Limited
+2032,INE528G01035,Yes Bank Limited
+2033,INE384C01016,Yuken India Limited
+2034,INE07K301024,Zaggle Prepaid Ocean Services Limited
+2035,INE256A01028,Zee Entertainment Enterprises Limited
+2036,INE565L01011,Zee Learn Limited
+2037,INE966H01019,Zee Media Corporation Limited
+2038,INE058B01018,Zenith Exports Limited
+2039,INE318D01020,Zenith Steel Pipes & Industries Limited
+2040,INE520A01027,Zensar Technologies Limited
+2041,INE251B01027,Zen Technologies Limited
+2042,INE342J01019,ZF Commercial Vehicle Control Systems India Limited
+2043,INE518E01015,Zim Laboratories Limited
+2044,INE761Y01019,Zodiac Energy Limited
+2045,INE206B01013,Zodiac Clothing Company Limited
+2046,INE758T01015,Zomato Limited
+2047,INE358U01012,Zota Health Care LImited
+2048,INE840M01016,Zuari Agro Chemicals Limited
+2049,INE217A01012,ZUARI INDUSTRIES LIMITED
+2050,INE010B01027,Zydus Lifesciences Limited
+2051,INE768C01010,Zydus Wellness Limited
