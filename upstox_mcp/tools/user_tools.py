@@ -29,7 +29,7 @@ def register_user_tools(mcp: FastMCP) -> None:
             "exchanges, products, broker, user ID, order types, user type, and "
             "account/authorization flags."
         ),
-        annotations=ToolAnnotations(readOnlyHint=True, openWorldHint=True),
+        annotations=ToolAnnotations(readOnlyHint=True, destructiveHint=False, openWorldHint=True),
     )
     def get_profile() -> ProfileResult:
         tlog = ToolLogger(logger, "get_profile")
@@ -53,7 +53,7 @@ def register_user_tools(mcp: FastMCP) -> None:
             "endpoint, returning a detailed balance breakdown of cash and pledged "
             "margin available and unavailable to trade."
         ),
-        annotations=ToolAnnotations(readOnlyHint=True, openWorldHint=True),
+        annotations=ToolAnnotations(readOnlyHint=True, destructiveHint=False, openWorldHint=True),
     )
     def get_fund_and_margin_v3() -> FundAndMarginV3Result:
         tlog = ToolLogger(logger, "get_fund_and_margin_v3")
