@@ -394,7 +394,7 @@ Used for `start_date` and `end_date` in `get_trade_history`.
 
 - **Cause:** Upstream Upstox API returned an error
 - **Solution:**
-  1. Check Upstox service status at [Upstox Status Page](https://status.upstox.com/)
+  1. Check the error code against [Upstox's error code reference](https://upstox.com/developer/api-documentation/error-codes)
   2. Verify your credential has the required permissions
   3. Review the error message for specific details
 
@@ -405,8 +405,10 @@ Used for `start_date` and `end_date` in `get_trade_history`.
 <details>
 <summary><strong>Resources</strong></summary>
 
-- **[Upstox API Documentation](https://upstox.com/developer/api-documentation/open-api)** — Official API reference
-- **[Upstox API Reference](https://upstox.com/developer/api-documentation/open-api)** — Complete endpoint reference
+- **[Upstox Request Structure](https://upstox.com/developer/api-documentation/request-structure)** — General request format and headers
+- **[Upstox Response Structure](https://upstox.com/developer/api-documentation/response-structure)** — Success/error envelope shape
+- **[Upstox Error Codes](https://upstox.com/developer/api-documentation/error-codes)** — HTTP and Upstox-specific error codes
+- **[Upstox Rate Limits](https://upstox.com/developer/api-documentation/rate-limiting)** — Per-endpoint-category rate limits
 - **[FastMCP Docs](https://gofastmcp.com/v2/getting-started/welcome)** — FastMCP specification
 - **[FastMCP Credentials](https://pypi.org/project/fastmcp-credentials/)** — FastMCP Credentials package for credential handling
 
