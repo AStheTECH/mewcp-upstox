@@ -24,7 +24,8 @@ class InstrumentInput(BaseModel):
     )
     transaction_type: Literal["BUY", "SELL"] = Field(description="BUY or SELL.")
     price: float | None = Field(
-        default=None, description="Price the order would be placed at."
+        default=None,
+        description="Price the order would be placed at. Omit for a market-price estimate.",
     )
 
 
