@@ -1,0 +1,210 @@
+{
+  "manifest_version": 1,
+  "server": {
+    "name": "mewcp-upstox",
+    "package": "upstox_mcp",
+    "auth": "oauth",
+    "version": "v1.0.0",
+    "api_base": "https://api.upstox.com"
+  },
+  "tools": {
+    "groups": {
+      "user": {
+        "file": "user_tools.py",
+        "doc_source": "get_profile.md, get_fund_and_margin_v3.md",
+        "register_fn": "register_user_tools",
+        "tools": {
+          "get_profile": {
+            "endpoint": "GET /v2/user/profile",
+            "description": "Retrieves the authenticated user's profile information, returning email, exchanges, products, broker, user ID, order types, user type, and account/authorization flags.",
+            "tier": "GET",
+            "params": [],
+            "response_fields": [
+              { "name": "status", "type": "string" },
+              { "name": "data", "type": "object" },
+              { "name": "data.email", "type": "string" },
+              { "name": "data.exchanges", "type": "string[]" },
+              { "name": "data.products", "type": "string[]" },
+              { "name": "data.broker", "type": "string" },
+              { "name": "data.user_id", "type": "string" },
+              { "name": "data.user_name", "type": "string" },
+              { "name": "data.order_types", "type": "string[]" },
+              { "name": "data.user_type", "type": "string" },
+              { "name": "data.poa", "type": "boolean" },
+              { "name": "data.ddpi", "type": "boolean" },
+              { "name": "data.is_active", "type": "boolean" }
+            ],
+            "schema": { "data": "ProfileData", "result": "ProfileResult" }
+          },
+          "get_fund_and_margin_v3": {
+            "endpoint": "GET /v3/user/get-funds-and-margin",
+            "description": "Retrieves the authenticated user's fund and margin details via the V3 endpoint, returning a detailed balance breakdown of cash and pledged margin available and unavailable to trade.",
+            "tier": "GET",
+            "params": [],
+            "response_fields": [
+              { "name": "status", "type": "string" },
+              { "name": "data", "type": "object" },
+              { "name": "data.available_to_trade.total", "type": "float" },
+              { "name": "data.available_to_trade.cash_available_to_trade", "type": "object" },
+              { "name": "data.available_to_trade.pledge_available_to_trade", "type": "object" },
+              { "name": "data.available_to_trade.cash_available_to_trade.total", "type": "float" },
+              { "name": "data.available_to_trade.cash_available_to_trade.cash.opening_balance", "type": "float" },
+              { "name": "data.available_to_trade.cash_available_to_trade.cash.added_today", "type": "float" },
+              { "name": "data.available_to_trade.cash_available_to_trade.cash.withdrawn_today", "type": "float" },
+              { "name": "data.available_to_trade.cash_available_to_trade.cash.amount_from_stock_sale", "type": "float" },
+              { "name": "data.available_to_trade.cash_available_to_trade.cash.unpaid_charges", "type": "float" },
+              { "name": "data.available_to_trade.cash_available_to_trade.margin_used.total", "type": "float" },
+              { "name": "data.available_to_trade.cash_available_to_trade.margin_used.span_exposure", "type": "float" },
+              { "name": "data.available_to_trade.cash_available_to_trade.margin_used.cash_margin_var_elm", "type": "float" },
+              { "name": "data.available_to_trade.cash_available_to_trade.margin_used.premium_present", "type": "float" },
+              { "name": "data.available_to_trade.cash_available_to_trade.margin_used.delivery_margin.total", "type": "float" },
+              { "name": "data.available_to_trade.cash_available_to_trade.margin_used.delivery_margin.equity", "type": "float" },
+              { "name": "data.available_to_trade.cash_available_to_trade.margin_used.delivery_margin.fo_settlement", "type": "float" },
+              { "name": "data.available_to_trade.cash_available_to_trade.margin_used.mtf", "type": "float" },
+              { "name": "data.available_to_trade.cash_available_to_trade.margin_used.loss.total", "type": "float" },
+              { "name": "data.available_to_trade.cash_available_to_trade.margin_used.loss.realised", "type": "float" },
+              { "name": "data.available_to_trade.cash_available_to_trade.margin_used.loss.unrealised", "type": "float" },
+              { "name": "data.available_to_trade.pledge_available_to_trade.total", "type": "float" },
+              { "name": "data.available_to_trade.pledge_available_to_trade.margin_from_pledge.total", "type": "float" },
+              { "name": "data.available_to_trade.pledge_available_to_trade.margin_from_pledge.equity", "type": "float" },
+              { "name": "data.available_to_trade.pledge_available_to_trade.margin_from_pledge.mutual_funds", "type": "float" },
+              { "name": "data.available_to_trade.pledge_available_to_trade.margin_used.total", "type": "float" },
+              { "name": "data.available_to_trade.pledge_available_to_trade.margin_used.span_exposure", "type": "float" },
+              { "name": "data.available_to_trade.pledge_available_to_trade.margin_used.cash_margin_var_elm", "type": "float" },
+              { "name": "data.available_to_trade.pledge_available_to_trade.margin_used.premium_present", "type": "float" },
+              { "name": "data.available_to_trade.pledge_available_to_trade.margin_used.delivery_margin.total", "type": "float" },
+              { "name": "data.available_to_trade.pledge_available_to_trade.margin_used.delivery_margin.equity", "type": "float" },
+              { "name": "data.available_to_trade.pledge_available_to_trade.margin_used.delivery_margin.fo_settlement", "type": "float" },
+              { "name": "data.available_to_trade.pledge_available_to_trade.margin_used.mtf", "type": "float" },
+              { "name": "data.unavailable_to_trade.cash_unavailable_to_trade.unsettled_profit.todays_profit", "type": "float" },
+              { "name": "data.unavailable_to_trade.cash_unavailable_to_trade.unsettled_profit.previous_days", "type": "float" },
+              { "name": "data.unavailable_to_trade.pledge_unavailable_to_trade.equity", "type": "float" },
+              { "name": "data.unavailable_to_trade.pledge_unavailable_to_trade.mutual_funds", "type": "float" }
+            ],
+            "schema": { "data": "FundAndMarginV3Data", "result": "FundAndMarginV3Result" }
+          }
+        }
+      },
+      "margins": {
+        "file": "margins_tools.py",
+        "doc_source": "get_margin_details.md",
+        "register_fn": "register_margins_tools",
+        "tools": {
+          "get_margin_details": {
+            "endpoint": "POST /charges/margin",
+            "description": "Computes and returns the estimated margin for a proposed trade across one or more instruments.",
+            "tier": "GET",
+            "params": [
+              { "name": "instruments", "type": "array", "required": true, "description": "Instruments to request margin details for." },
+              { "name": "instruments[].instrument_key", "type": "string", "required": true, "description": "Key of the instrument. See the Field Pattern appendix for the regex this must match." },
+              { "name": "instruments[].quantity", "type": "integer (int32)", "required": true, "description": "Order quantity — must be a multiple of lot size." },
+              { "name": "instruments[].product", "type": "string", "required": true, "description": "Product the order would use. Possible values: `I`, `D`, `CO`, `MTF`." },
+              { "name": "instruments[].transaction_type", "type": "string", "required": true, "description": "`BUY` or `SELL`." },
+              { "name": "instruments[].price", "type": "number (float)", "required": false, "description": "Price the order would be placed at." }
+            ],
+            "response_fields": [
+              { "name": "status", "type": "string" },
+              { "name": "data", "type": "object" },
+              { "name": "data.required_margin", "type": "float" },
+              { "name": "data.final_margin", "type": "float" },
+              { "name": "data.margins", "type": "array" },
+              { "name": "data.margins[].equity_margin", "type": "float" },
+              { "name": "data.margins[].total_margin", "type": "float" },
+              { "name": "data.margins[].exposure_margin", "type": "float" },
+              { "name": "data.margins[].tender_margin", "type": "float" },
+              { "name": "data.margins[].span_margin", "type": "float" },
+              { "name": "data.margins[].net_buy_premium", "type": "float" },
+              { "name": "data.margins[].additional_margin", "type": "float" }
+            ],
+            "schema": { "data": "MarginDetailsData", "result": "MarginDetailsResult" }
+          }
+        }
+      },
+      "orders": {
+        "file": "orders_tools.py",
+        "doc_source": "get_order_book.md,get_trade_history.md",
+        "register_fn": "register_orders_tools",
+        "tools": {
+          "get_order_book": {
+            "endpoint": "GET /v2/order/retrieve-all",
+            "description": "Retrieves the order book and returns all orders placed for the current day, each reflecting its latest status.",
+            "tier": "GET",
+            "params": [],
+            "response_fields": [
+              { "name": "status", "type": "string" },
+              { "name": "data", "type": "array" },
+              { "name": "data[].exchange", "type": "string" },
+              { "name": "data[].product", "type": "string" },
+              { "name": "data[].price", "type": "float" },
+              { "name": "data[].quantity", "type": "int32" },
+              { "name": "data[].status", "type": "string" },
+              { "name": "data[].tag", "type": "string" },
+              { "name": "data[].instrument_token", "type": "string" },
+              { "name": "data[].placed_by", "type": "string" },
+              { "name": "data[].trading_symbol", "type": "string" },
+              { "name": "data[].order_type", "type": "string" },
+              { "name": "data[].validity", "type": "string" },
+              { "name": "data[].trigger_price", "type": "float" },
+              { "name": "data[].disclosed_quantity", "type": "int32" },
+              { "name": "data[].transaction_type", "type": "string" },
+              { "name": "data[].average_price", "type": "float" },
+              { "name": "data[].filled_quantity", "type": "int32" },
+              { "name": "data[].pending_quantity", "type": "int32" },
+              { "name": "data[].status_message", "type": "string" },
+              { "name": "data[].status_message_raw", "type": "string" },
+              { "name": "data[].exchange_order_id", "type": "string" },
+              { "name": "data[].parent_order_id", "type": "string" },
+              { "name": "data[].order_id", "type": "string" },
+              { "name": "data[].variety", "type": "string" },
+              { "name": "data[].order_timestamp", "type": "string" },
+              { "name": "data[].exchange_timestamp", "type": "string" },
+              { "name": "data[].is_amo", "type": "boolean" },
+              { "name": "data[].order_request_id", "type": "string" },
+              { "name": "data[].order_ref_id", "type": "string" }
+            ],
+            "schema": { "data": "OrderBookData", "result": "OrderBookResult" }
+          },
+          "get_trade_history": {
+            "endpoint": "GET /charges/historical-trades",
+            "description": "Retrieves historical trade records for a date range and returns the trade history the API reports, for at most the last 3 financial years.",
+            "tier": "GET",
+            "params": [
+              { "name": "segment", "type": "string", "required": false, "description": "Segment to filter by. If omitted, all segments are included. Possible values: EQ (Equity), FO (Futures and Options), COM (Commodity), CD (Currency Derivatives), MF (Mutual Funds)." },
+              { "name": "start_date", "type": "string", "required": true, "description": "Start of the date range, YYYY-mm-dd. Must be within the last 3 financial years." },
+              { "name": "end_date", "type": "string", "required": true, "description": "End of the date range, YYYY-mm-dd. Must be within the last 3 financial years and >= start_date." },
+              { "name": "page_number", "type": "integer", "required": true, "description": "Page number, starting from 1." },
+              { "name": "page_size", "type": "integer", "required": true, "description": "Page size for pagination (1-5000)." }
+            ],
+            "response_fields": [
+              { "name": "status", "type": "string" },
+              { "name": "data", "type": "object[]" },
+              { "name": "data[].exchange", "type": "string" },
+              { "name": "data[].segment", "type": "string" },
+              { "name": "data[].option_type", "type": "string" },
+              { "name": "data[].quantity", "type": "integer" },
+              { "name": "data[].amount", "type": "float" },
+              { "name": "data[].trade_id", "type": "string" },
+              { "name": "data[].trade_date", "type": "string" },
+              { "name": "data[].transaction_type", "type": "string" },
+              { "name": "data[].scrip_name", "type": "string" },
+              { "name": "data[].strike_price", "type": "float" },
+              { "name": "data[].expiry", "type": "string" },
+              { "name": "data[].price", "type": "float" },
+              { "name": "data[].isin", "type": "string" },
+              { "name": "data[].symbol", "type": "string" },
+              { "name": "data[].instrument_token", "type": "string" },
+              { "name": "meta_data", "type": "object" },
+              { "name": "meta_data.page.page_number", "type": "integer" },
+              { "name": "meta_data.page.page_size", "type": "integer" },
+              { "name": "meta_data.page.total_records", "type": "integer" },
+              { "name": "meta_data.page.total_pages", "type": "integer" }
+            ],
+            "schema": { "data": "TradeHistoryData", "result": "TradeHistoryResult" }
+          }
+        }
+      }
+    }
+  },
+  "resources": {},
+  "prompts": {}
+}
