@@ -24,7 +24,7 @@ Perfect for:
 <details>
 <summary><code>get_profile</code> — Retrieve the authenticated user's profile</summary>
 
-Retrieves the authenticated user's profile information, returning email, exchanges, products, broker, user ID, order types, user type, and account/authorization flags.
+Retrieves the authenticated user's account profile — email, exchanges, products, broker, user ID, order types, and account status flags. Does not include fund, margin, or balance data.
 
 **Inputs:** None
 
@@ -52,7 +52,7 @@ Retrieves the authenticated user's profile information, returning email, exchang
 <details>
 <summary><code>get_fund_and_margin_v3</code> — Retrieve fund and margin balance details</summary>
 
-Retrieves the authenticated user's fund and margin details via the V3 endpoint, returning a detailed balance breakdown of cash and pledged margin available and unavailable to trade.
+Retrieves the user's current cash and pledged margin balance, broken down into amounts available and unavailable to trade. Unavailable daily from 12:00 AM to 5:30 AM IST, when it returns a 423 error instead of data.
 
 **Inputs:** None
 
@@ -131,7 +131,7 @@ Retrieves the authenticated user's fund and margin details via the V3 endpoint, 
 <details>
 <summary><code>get_margin_details</code> — Estimate margin for a proposed trade</summary>
 
-Computes and returns the estimated margin for a proposed trade across one or more instruments. This only calculates an estimate — it does not place or persist any order. A maximum of 20 instruments is allowed per request.
+Computes and returns the estimated margin required for a proposed trade of up to 20 instruments. Does not place, modify, or persist any order.
 
 **Inputs:**
 ```
@@ -171,7 +171,7 @@ Each item in `instruments`:
 <details>
 <summary><code>get_order_book</code> — Retrieve today's order book</summary>
 
-Retrieves the order book and returns all orders placed for the current day, each reflecting its latest status.
+Retrieves all orders placed during the current trading day, each with its latest status. Does not return orders from previous days — those are cleared at end of session.
 
 **Inputs:** None
 
@@ -218,7 +218,7 @@ Retrieves the order book and returns all orders placed for the current day, each
 <details>
 <summary><code>get_trade_history</code> — Retrieve historical trade records</summary>
 
-Retrieves historical trade records for a date range and returns the trade history the API reports, for at most the last 3 financial years.
+Retrieves executed trade records for a given date range and optional segment, limited to at most the last 3 financial years.
 
 **Inputs:**
 ```
