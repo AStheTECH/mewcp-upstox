@@ -1,6 +1,24 @@
 #!/usr/bin/env python3
 """MewCP Upstox MCP Server."""
 
+import sys
+
+if "uuid" not in sys.modules:
+    # upstox-python-sdk unconditionally depends on a defunct PyPI package literally
+    # named "uuid" (Python 2-only, last released ~2009) that shadows Python's built-in
+    # uuid module once installed and breaks pydantic's `from uuid import UUID` with a
+    # SyntaxError (invalid decimal literal on legacy `1<<32L` syntax). Force-load the
+    # real standard-library module first so every later `import uuid` — including
+    # inside fastmcp/pydantic below — hits this cached copy instead of the shadow.
+    import importlib.util
+    import sysconfig
+
+    _stdlib_uuid_path = f"{sysconfig.get_path('stdlib')}/uuid.py"
+    _spec = importlib.util.spec_from_file_location("uuid", _stdlib_uuid_path)
+    _stdlib_uuid = importlib.util.module_from_spec(_spec)
+    sys.modules["uuid"] = _stdlib_uuid
+    _spec.loader.exec_module(_stdlib_uuid)
+
 import logging
 
 from fastmcp import FastMCP

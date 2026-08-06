@@ -1,8 +1,0 @@
-[build-system]
-requires = ["setuptools>=61.0"]
-build-backend = "setuptools.build_meta"
-
-[project]
-name = "uuid"
-version = "999.0.0"
-description = "No-op stub that satisfies upstox-python-sdk's unconditional dependency on a package literally named 'uuid', without shadowing Python's built-in uuid module. See requirements.txt for context."
