@@ -56,14 +56,6 @@ def register_orders_tools(mcp: FastMCP) -> None:
         annotations=ToolAnnotations(readOnlyHint=True, destructiveHint=False, openWorldHint=True),
     )
     def get_trade_history(
-        segment: str | None = Field(
-            default=None,
-            description=(
-                "Segment to filter by. If omitted, all segments are included. Possible "
-                "values: EQ (Equity), FO (Futures and Options), COM (Commodity), CD "
-                "(Currency Derivatives), MF (Mutual Funds)."
-            ),
-        ),
         start_date: str = Field(
             description="Start of the date range, YYYY-mm-dd. Must be within the last 3 financial years."
         ),
@@ -72,6 +64,14 @@ def register_orders_tools(mcp: FastMCP) -> None:
         ),
         page_number: int = Field(description="Page number, starting from 1."),
         page_size: int = Field(description="Page size for pagination (1-5000)."),
+        segment: str | None = Field(
+            default=None,
+            description=(
+                "Segment to filter by. If omitted, all segments are included. Possible "
+                "values: EQ (Equity), FO (Futures and Options), COM (Commodity), CD "
+                "(Currency Derivatives), MF (Mutual Funds)."
+            ),
+        ),
     ) -> TradeHistoryResult:
         tlog = ToolLogger(logger, "get_trade_history")
 
