@@ -16,7 +16,7 @@
         "tools": {
           "get_profile": {
             "endpoint": "GET /v2/user/profile",
-            "description": "Retrieves the authenticated user's profile information, returning email, exchanges, products, broker, user ID, order types, user type, and account/authorization flags.",
+            "description": "Retrieves the authenticated user's account profile — email, exchanges, products, broker, user ID, order types, and account status flags. Does not include fund, margin, or balance data.",
             "tier": "GET",
             "params": [],
             "response_fields": [
@@ -38,7 +38,7 @@
           },
           "get_fund_and_margin_v3": {
             "endpoint": "GET /v3/user/get-funds-and-margin",
-            "description": "Retrieves the authenticated user's fund and margin details via the V3 endpoint, returning a detailed balance breakdown of cash and pledged margin available and unavailable to trade.",
+            "description": "Retrieves the user's current cash and pledged margin balance, broken down into amounts available and unavailable to trade. Unavailable daily from 12:00 AM to 5:30 AM IST, when it returns a 423 error instead of data.",
             "tier": "GET",
             "params": [],
             "response_fields": [
@@ -92,7 +92,7 @@
         "tools": {
           "get_margin_details": {
             "endpoint": "POST /charges/margin",
-            "description": "Computes and returns the estimated margin for a proposed trade across one or more instruments.",
+            "description": "Computes and returns the estimated margin required for a proposed trade of up to 20 instruments. Does not place, modify, or persist any order.",
             "tier": "GET",
             "params": [
               { "name": "instruments", "type": "array", "required": true, "description": "Instruments to request margin details for." },
@@ -127,7 +127,7 @@
         "tools": {
           "get_order_book": {
             "endpoint": "GET /v2/order/retrieve-all",
-            "description": "Retrieves the order book and returns all orders placed for the current day, each reflecting its latest status.",
+            "description": "Retrieves all orders placed during the current trading day, each with its latest status. Does not return orders from previous days — those are cleared at end of session.",
             "tier": "GET",
             "params": [],
             "response_fields": [
@@ -166,7 +166,7 @@
           },
           "get_trade_history": {
             "endpoint": "GET /charges/historical-trades",
-            "description": "Retrieves historical trade records for a date range and returns the trade history the API reports, for at most the last 3 financial years.",
+            "description": "Retrieves executed trade records for a given date range and optional segment, limited to at most the last 3 financial years.",
             "tier": "GET",
             "params": [
               { "name": "segment", "type": "string", "required": false, "description": "Segment to filter by. If omitted, all segments are included. Possible values: EQ (Equity), FO (Futures and Options), COM (Commodity), CD (Currency Derivatives), MF (Mutual Funds)." },
