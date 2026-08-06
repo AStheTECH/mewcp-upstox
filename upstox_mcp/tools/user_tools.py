@@ -25,9 +25,9 @@ def register_user_tools(mcp: FastMCP) -> None:
     @mcp.tool(
         name="get_profile",
         description=(
-            "Retrieves the authenticated user's profile information, returning email, "
-            "exchanges, products, broker, user ID, order types, user type, and "
-            "account/authorization flags."
+            "Retrieves the authenticated user's account profile — email, exchanges, "
+            "products, broker, user ID, order types, and account status flags. Does not "
+            "include fund, margin, or balance data."
         ),
         annotations=ToolAnnotations(readOnlyHint=True, destructiveHint=False, openWorldHint=True),
     )
@@ -49,9 +49,9 @@ def register_user_tools(mcp: FastMCP) -> None:
     @mcp.tool(
         name="get_fund_and_margin_v3",
         description=(
-            "Retrieves the authenticated user's fund and margin details via the V3 "
-            "endpoint, returning a detailed balance breakdown of cash and pledged "
-            "margin available and unavailable to trade."
+            "Retrieves the user's current cash and pledged margin balance, broken down "
+            "into amounts available and unavailable to trade. Unavailable daily from "
+            "12:00 AM to 5:30 AM IST, when it returns a 423 error instead of data."
         ),
         annotations=ToolAnnotations(readOnlyHint=True, destructiveHint=False, openWorldHint=True),
     )

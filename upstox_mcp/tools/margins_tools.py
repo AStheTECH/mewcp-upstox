@@ -34,9 +34,8 @@ def register_margins_tools(mcp: FastMCP) -> None:
     @mcp.tool(
         name="get_margin_details",
         description=(
-            "Computes and returns the estimated margin for a proposed trade across one or "
-            "more instruments. This only calculates an estimate — it does not place or "
-            "persist any order. A maximum of 20 instruments is allowed per request."
+            "Computes and returns the estimated margin required for a proposed trade of "
+            "up to 20 instruments. Does not place, modify, or persist any order."
         ),
         annotations=ToolAnnotations(readOnlyHint=True, destructiveHint=False, openWorldHint=True),
     )

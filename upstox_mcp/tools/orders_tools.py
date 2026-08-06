@@ -25,8 +25,9 @@ def register_orders_tools(mcp: FastMCP) -> None:
     @mcp.tool(
         name="get_order_book",
         description=(
-            "Retrieves the order book and returns all orders placed for the current day, "
-            "each reflecting its latest status."
+            "Retrieves all orders placed during the current trading day, each with its "
+            "latest status. Does not return orders from previous days — those are "
+            "cleared at end of session."
         ),
         annotations=ToolAnnotations(readOnlyHint=True, destructiveHint=False, openWorldHint=True),
     )
@@ -49,8 +50,8 @@ def register_orders_tools(mcp: FastMCP) -> None:
     @mcp.tool(
         name="get_trade_history",
         description=(
-            "Retrieves historical trade records for a date range and returns the trade "
-            "history the API reports, for at most the last 3 financial years."
+            "Retrieves executed trade records for a given date range and optional "
+            "segment, limited to at most the last 3 financial years."
         ),
         annotations=ToolAnnotations(readOnlyHint=True, destructiveHint=False, openWorldHint=True),
     )
