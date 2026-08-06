@@ -4,7 +4,7 @@
     "name": "mewcp-upstox",
     "package": "upstox_mcp",
     "auth": "oauth",
-    "version": "v1.0.0",
+    "version": "v1.1.0",
     "api_base": "https://api.upstox.com"
   },
   "tools": {
@@ -200,6 +200,194 @@
               { "name": "meta_data.page.total_pages", "type": "integer" }
             ],
             "schema": { "data": "TradeHistoryData", "result": "TradeHistoryResult" }
+          }
+        }
+      },
+      "portfolio": {
+        "file": "portfolio_tools.py",
+        "doc_source": "get_positions.md,get_holdings.md",
+        "register_fn": "register_portfolio_tools",
+        "tools": {
+          "get_positions": {
+            "endpoint": "GET /v2/portfolio/short-term-positions",
+            "description": "Retrieves the positions currently held in the account and returns them as a list. Positions remain until sold or, for derivatives, until expiry (max three months); equity positions carried overnight are automatically shifted to the holdings portfolio the following trading day.",
+            "tier": "GET",
+            "params": [],
+            "response_fields": [
+              { "name": "status", "type": "string" },
+              { "name": "data", "type": "object[]" },
+              { "name": "data[].exchange", "type": "string" },
+              { "name": "data[].multiplier", "type": "float" },
+              { "name": "data[].value", "type": "float" },
+              { "name": "data[].pnl", "type": "float" },
+              { "name": "data[].product", "type": "string" },
+              { "name": "data[].instrument_token", "type": "string" },
+              { "name": "data[].average_price", "type": "float" },
+              { "name": "data[].buy_value", "type": "float" },
+              { "name": "data[].overnight_quantity", "type": "int32" },
+              { "name": "data[].day_buy_value", "type": "float" },
+              { "name": "data[].day_buy_price", "type": "float" },
+              { "name": "data[].overnight_buy_amount", "type": "float" },
+              { "name": "data[].overnight_buy_quantity", "type": "int32" },
+              { "name": "data[].day_buy_quantity", "type": "int32" },
+              { "name": "data[].day_sell_value", "type": "float" },
+              { "name": "data[].day_sell_price", "type": "float" },
+              { "name": "data[].overnight_sell_amount", "type": "float" },
+              { "name": "data[].overnight_sell_quantity", "type": "int32" },
+              { "name": "data[].day_sell_quantity", "type": "int32" },
+              { "name": "data[].quantity", "type": "int32" },
+              { "name": "data[].last_price", "type": "float" },
+              { "name": "data[].unrealised", "type": "float" },
+              { "name": "data[].realised", "type": "float" },
+              { "name": "data[].sell_value", "type": "float" },
+              { "name": "data[].trading_symbol", "type": "string" },
+              { "name": "data[].close_price", "type": "float" },
+              { "name": "data[].buy_price", "type": "float" },
+              { "name": "data[].sell_price", "type": "float" }
+            ],
+            "schema": { "data": "GetPositionsData", "result": "GetPositionsResult" }
+          },
+          "get_holdings": {
+            "endpoint": "GET /v2/portfolio/long-term-holdings",
+            "description": "Retrieves the holdings currently held in the account and returns them as a list. A holding stays in place indefinitely — it's only removed when divested, delisted, or modified by exchange action.",
+            "tier": "GET",
+            "params": [],
+            "response_fields": [
+              { "name": "status", "type": "string" },
+              { "name": "data", "type": "object[]" },
+              { "name": "data[].isin", "type": "string" },
+              { "name": "data[].cnc_used_quantity", "type": "int32" },
+              { "name": "data[].collateral_type", "type": "string" },
+              { "name": "data[].company_name", "type": "string" },
+              { "name": "data[].haircut", "type": "float" },
+              { "name": "data[].product", "type": "string" },
+              { "name": "data[].quantity", "type": "int32" },
+              { "name": "data[].trading_symbol", "type": "string" },
+              { "name": "data[].last_price", "type": "float" },
+              { "name": "data[].close_price", "type": "float" },
+              { "name": "data[].pnl", "type": "float" },
+              { "name": "data[].day_change", "type": "float" },
+              { "name": "data[].day_change_percentage", "type": "float" },
+              { "name": "data[].instrument_token", "type": "string" },
+              { "name": "data[].average_price", "type": "float" },
+              { "name": "data[].collateral_quantity", "type": "int32" },
+              { "name": "data[].collateral_update_quantity", "type": "int32" },
+              { "name": "data[].t1_quantity", "type": "int32" },
+              { "name": "data[].exchange", "type": "string" }
+            ],
+            "schema": { "data": "GetHoldingsData", "result": "GetHoldingsResult" }
+          }
+        }
+      },
+      "fundamentals": {
+        "file": "fundamentals_tools.py",
+        "doc_source": "get_company_profile.md,get_balance_sheet.md",
+        "register_fn": "register_fundamentals_tools",
+        "tools": {
+          "get_company_profile": {
+            "endpoint": "GET /v2/fundamentals/{isin}/profile",
+            "description": "Returns the company profile information for a company.",
+            "tier": "GET",
+            "params": [
+              { "name": "isin", "type": "str", "required": true, "description": "ISIN of the company, e.g. INE002A01018. Passed as a path segment." }
+            ],
+            "response_fields": [
+              { "name": "status", "type": "string" },
+              { "name": "data.company_profile", "type": "string" },
+              { "name": "data.sector", "type": "string" },
+              { "name": "data.sector_market_cap_inr", "type": "object" },
+              { "name": "data.sector_market_cap_inr.value", "type": "float" },
+              { "name": "data.sector_market_cap_inr.unit", "type": "string" },
+              { "name": "data.sector_market_cap_inr.formatted", "type": "string" },
+              { "name": "data.sector_market_cap_usd", "type": "object" },
+              { "name": "data.sector_market_cap_usd.value", "type": "float" },
+              { "name": "data.sector_market_cap_usd.unit", "type": "string" },
+              { "name": "data.sector_market_cap_usd.formatted", "type": "string" }
+            ],
+            "schema": { "data": "CompanyProfileData", "result": "CompanyProfileResult" }
+          },
+          "get_balance_sheet": {
+            "endpoint": "GET /v2/fundamentals/{isin}/balance-sheet",
+            "description": "Returns balance sheet statement data for a company. All monetary values are in Indian Rupees (Crore).",
+            "tier": "GET",
+            "params": [
+              { "name": "isin", "type": "str", "required": true, "description": "ISIN of the company, e.g. INE002A01018. Passed as a path segment." },
+              { "name": "type", "type": "str", "required": false, "description": "Financial statement type. Possible values: consolidated, standalone. Default: consolidated." },
+              { "name": "fs", "type": "bool", "required": false, "description": "When true, includes a detailed line-item breakdown in the full_statement field." }
+            ],
+            "response_fields": [
+              { "name": "status", "type": "string" },
+              { "name": "data", "type": "object" },
+              { "name": "data.type", "type": "string" },
+              { "name": "data.time_period", "type": "string" },
+              { "name": "data.units_in", "type": "string" },
+              { "name": "data.history", "type": "object[]" },
+              { "name": "data.history[].total_asset", "type": "float" },
+              { "name": "data.history[].total_liability", "type": "float" },
+              { "name": "data.history[].period", "type": "string" },
+              { "name": "data.full_statement", "type": "object[]" },
+              { "name": "data.full_statement[].particular", "type": "string" },
+              { "name": "data.full_statement[].history", "type": "object[]" },
+              { "name": "data.full_statement[].history[].period", "type": "string" },
+              { "name": "data.full_statement[].history[].value", "type": "float" }
+            ],
+            "schema": { "data": "BalanceSheetData", "result": "BalanceSheetResult" }
+          }
+        }
+      },
+      "trade_profit_and_loss": {
+        "file": "trade_profit_and_loss_tools.py",
+        "doc_source": "get_report_meta_data.md,get_profit_loss_report.md",
+        "register_fn": "register_trade_profit_and_loss_tools",
+        "tools": {
+          "get_report_meta_data": {
+            "endpoint": "GET /v2/trade/profit-loss/metadata",
+            "description": "Retrieves the metadata describing the trade profit and loss report and returns it.",
+            "tier": "GET",
+            "params": [
+              { "name": "segment", "type": "str", "required": true, "description": "Segment to request data for. Possible values: EQ (Equity), FO (Futures and Options), COM (Commodity), CD (Currency Derivatives)." },
+              { "name": "financial_year", "type": "str", "required": true, "description": "Financial year to request data for — concatenation of the last 2 digits of the from-year and to-year, e.g. 2021-2022 -> 2122." },
+              { "name": "from_date", "type": "str", "required": false, "description": "Start of the date range, dd-mm-yyyy. Must fall within the same financial year as financial_year." },
+              { "name": "to_date", "type": "str", "required": false, "description": "End of the date range, dd-mm-yyyy. Must fall within the same financial year as financial_year, and >= from_date." }
+            ],
+            "response_fields": [
+              { "name": "status", "type": "string" },
+              { "name": "data", "type": "object" },
+              { "name": "data.trades_count", "type": "integer" },
+              { "name": "data.page_size_limit", "type": "integer" }
+            ],
+            "schema": { "data": "ReportMetaDataData", "result": "ReportMetaDataResult" }
+          },
+          "get_profit_loss_report": {
+            "endpoint": "GET /v2/trade/profit-loss/data",
+            "description": "Retrieves the trade profit and loss report for the account and returns its entries. page_size's maximum is obtained from get_report_meta_data's data.page_size_limit.",
+            "tier": "GET",
+            "params": [
+              { "name": "segment", "type": "str", "required": true, "description": "Segment to request data for. Possible values: EQ (Equity), FO (Futures and Options), COM (Commodity), CD (Currency Derivatives)." },
+              { "name": "financial_year", "type": "str", "required": true, "description": "Financial year to request data for — concatenation of the last 2 digits of the from-year and to-year, e.g. 2021-2022 -> 2122." },
+              { "name": "page_number", "type": "int", "required": true, "description": "Page number, starting from 1." },
+              { "name": "page_size", "type": "int", "required": true, "description": "Page size for pagination (max 5000, see get_report_meta_data's data.page_size_limit)." },
+              { "name": "from_date", "type": "str", "required": false, "description": "Start of the date range, dd-mm-yyyy. Must fall within the same financial year as financial_year." },
+              { "name": "to_date", "type": "str", "required": false, "description": "End of the date range, dd-mm-yyyy. Must fall within the same financial year as financial_year, and >= from_date." }
+            ],
+            "response_fields": [
+              { "name": "status", "type": "string" },
+              { "name": "data", "type": "object[]" },
+              { "name": "data[].quantity", "type": "float" },
+              { "name": "data[].isin", "type": "string" },
+              { "name": "data[].scrip_name", "type": "string" },
+              { "name": "data[].trade_type", "type": "string" },
+              { "name": "data[].buy_date", "type": "string" },
+              { "name": "data[].buy_average", "type": "float" },
+              { "name": "data[].sell_date", "type": "string" },
+              { "name": "data[].sell_average", "type": "float" },
+              { "name": "data[].buy_amount", "type": "float" },
+              { "name": "data[].sell_amount", "type": "float" },
+              { "name": "metadata", "type": "object" },
+              { "name": "metadata.page.page_number", "type": "integer" },
+              { "name": "metadata.page.page_size", "type": "integer" }
+            ],
+            "schema": { "data": "ProfitLossReportData", "result": "ProfitLossReportResult" }
           }
         }
       }
