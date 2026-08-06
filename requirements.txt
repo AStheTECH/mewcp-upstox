@@ -2,5 +2,11 @@ fastmcp>=0.1.0
 fastmcp-credentials>=0.1.0
 pydantic>=2.0.0
 requests>=2.31.0
+# upstox-python-sdk unconditionally depends on a package literally named "uuid" on PyPI —
+# a defunct Python-2-only package (last released ~2009) that shadows Python 3's built-in
+# uuid module and breaks pydantic (SyntaxError on import) once installed. This local no-op
+# stub satisfies that requirement without providing a real "uuid" module, so pip resolves
+# to it instead of PyPI's broken package and the built-in uuid module stays reachable.
+./vendor/uuid_stub
 upstox-python-sdk>=1.0.0
 python-json-logger>=2.0.0
