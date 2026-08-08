@@ -1,6 +1,7 @@
 """Upstream API client for MewCP Upstox MCP Server."""
 
 import logging
+import os
 from typing import Any
 
 import requests
@@ -10,6 +11,13 @@ from fastmcp_credentials import get_credentials
 from .config import UPSTOX_API_BASE, CONNECT_TIMEOUT, READ_TIMEOUT
 
 logger = logging.getLogger("upstox-mcp.service")
+
+# Vercel's Python builder does not reliably ship certifi's cacert.pem data file
+# alongside the package, which makes the upstox_client SDK's urllib3 pool fail
+# with FileNotFoundError at request time (certifi.where() resolves to a path
+# that doesn't exist in the deployed bundle). Vendoring our own copy inside the
+# app's own source tree sidesteps that, since Vercel deploys the repo as-is.
+_CA_BUNDLE = os.path.join(os.path.dirname(__file__), "certs", "cacert.pem")
 
 
 def _get_credential() -> str:
@@ -22,6 +30,7 @@ def _get_credential() -> str:
 def get_service() -> upstox_client.ApiClient:
     configuration = upstox_client.Configuration()
     configuration.access_token = _get_credential()
+    configuration.ssl_ca_cert = _CA_BUNDLE
     return upstox_client.ApiClient(configuration)
 
 
