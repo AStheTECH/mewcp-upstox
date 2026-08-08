@@ -18,9 +18,9 @@ class MarginEntry(BaseModel):
 class MarginDetailsData(BaseModel):
     model_config = ConfigDict(extra="allow")
 
-    required_margin: float
-    final_margin: float
-    margins: list[MarginEntry]
+    required_margin: float | None = None
+    final_margin: float | None = None
+    margins: list[MarginEntry] | None = None
 
 
 class MarginDetailsResult(ToolResult):

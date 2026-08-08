@@ -1,6 +1,9 @@
 """Shared error helpers for all tool modules."""
 
+import pydantic
 import requests
+from fastmcp_credentials import CredentialError
+
 from ..logging_utils import ToolLogger
 from ..schemas import ToolError
 
@@ -27,7 +30,21 @@ def _handle_request_exc(result_class, tlog, exc):
         tlog.failure("UPSTREAM_ERROR", "Network error")
         return result_class(success=False, statusCode=503, retriable=True,
             error=ToolError(code="UPSTREAM_ERROR", message=str(exc)))
-    if isinstance(exc, ValueError):
+    # MUST precede the ValueError branch — pydantic.ValidationError subclasses
+    # ValueError, so checking ValueError first would report every response-shape
+    # mismatch as an auth failure. A 2xx body we can't parse is an upstream
+    # contract change, not a caller or server fault. The full validation detail
+    # names response fields and values, so it stays in the log only.
+    if isinstance(exc, pydantic.ValidationError):
+        tlog.failure("UPSTREAM_ERROR", str(exc))
+        return result_class(success=False, statusCode=502, retriable=False,
+            error=ToolError(code="UPSTREAM_ERROR",
+                            message="Upstream response did not match the expected schema"))
+    # CredentialError subclasses Exception, not ValueError, so it has to be named
+    # explicitly or a genuine credential failure falls through to SERVER_ERROR and
+    # loses its actionable message (e.g. "Connect your account in the gateway").
+    # ValueError still covers service._get_credential()'s own missing-token raise.
+    if isinstance(exc, (CredentialError, ValueError)):
         tlog.failure("AUTH_ERROR", str(exc))
         return result_class(success=False, statusCode=401, retriable=False,
             error=ToolError(code="AUTH_ERROR", message=str(exc)))
