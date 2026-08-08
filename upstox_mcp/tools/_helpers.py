@@ -1,7 +1,6 @@
 """Shared error helpers for all tool modules."""
 
 import requests
-import upstox_client.rest
 from ..logging_utils import ToolLogger
 from ..schemas import ToolError
 
@@ -16,19 +15,6 @@ def _err(result_class, tlog, code, message, status, retriable=False, retry_after
 
 
 def _handle_request_exc(result_class, tlog, exc):
-    if isinstance(exc, upstox_client.rest.ApiException):
-        message = str(exc.reason or exc.body or f"HTTP {exc.status}")
-        if exc.status in (401, 403):
-            tlog.failure("AUTH_ERROR", f"HTTP {exc.status}")
-            return result_class(success=False, statusCode=401, retriable=False,
-                error=ToolError(code="AUTH_ERROR", message=message))
-        if exc.status == 429 or exc.status >= 500:
-            tlog.failure("UPSTREAM_ERROR", f"HTTP {exc.status}")
-            return result_class(success=False, statusCode=exc.status, retriable=True,
-                error=ToolError(code="UPSTREAM_ERROR", message=message))
-        tlog.failure("UPSTREAM_ERROR", f"HTTP {exc.status}")
-        return result_class(success=False, statusCode=exc.status, retriable=False,
-            error=ToolError(code="UPSTREAM_ERROR", message=message))
     if isinstance(exc, requests.ConnectTimeout):
         tlog.failure("UPSTREAM_ERROR", "Connection timeout")
         return result_class(success=False, statusCode=408, retriable=False,

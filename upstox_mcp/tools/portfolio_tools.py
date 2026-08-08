@@ -2,11 +2,11 @@
 
 import logging
 
-import upstox_client
 from fastmcp import FastMCP
 from mcp.types import ToolAnnotations
 
 from .. import service
+from ..config import CONNECT_TIMEOUT, READ_TIMEOUT
 from ..logging_utils import ToolLogger
 from ..schemas.portfolio import (
     GetHoldingsData,
@@ -14,7 +14,7 @@ from ..schemas.portfolio import (
     GetPositionsData,
     GetPositionsResult,
 )
-from ._helpers import _handle_request_exc
+from ._helpers import _handle_request_exc, _upstream_err
 
 logger = logging.getLogger("upstox-mcp.tools.portfolio")
 
@@ -35,15 +35,18 @@ def register_portfolio_tools(mcp: FastMCP) -> None:
         tlog = ToolLogger(logger, "get_positions")
 
         try:
-            api_instance = upstox_client.PortfolioApi(service.get_service())
-            api_response = api_instance.get_positions(api_version="2.0")
-            tlog.success()
-            positions = [position.to_dict() for position in (api_response.data or [])]
-            return GetPositionsResult(
-                success=True,
-                statusCode=200,
-                data=GetPositionsData(positions=positions),
+            data, status, retry_after = service.api_request(
+                "GET", "/v2/portfolio/short-term-positions",
+                timeout=(CONNECT_TIMEOUT, READ_TIMEOUT),
             )
+            if 200 <= status < 300:
+                tlog.success()
+                return GetPositionsResult(
+                    success=True,
+                    statusCode=status,
+                    data=GetPositionsData(positions=data.get("data") or []),
+                )
+            return _upstream_err(GetPositionsResult, tlog, status, data, retry_after)
         except Exception as exc:
             return _handle_request_exc(GetPositionsResult, tlog, exc)
 
@@ -60,14 +63,17 @@ def register_portfolio_tools(mcp: FastMCP) -> None:
         tlog = ToolLogger(logger, "get_holdings")
 
         try:
-            api_instance = upstox_client.PortfolioApi(service.get_service())
-            api_response = api_instance.get_holdings(api_version="2.0")
-            tlog.success()
-            holdings = [holding.to_dict() for holding in (api_response.data or [])]
-            return GetHoldingsResult(
-                success=True,
-                statusCode=200,
-                data=GetHoldingsData(holdings=holdings),
+            data, status, retry_after = service.api_request(
+                "GET", "/v2/portfolio/long-term-holdings",
+                timeout=(CONNECT_TIMEOUT, READ_TIMEOUT),
             )
+            if 200 <= status < 300:
+                tlog.success()
+                return GetHoldingsResult(
+                    success=True,
+                    statusCode=status,
+                    data=GetHoldingsData(holdings=data.get("data") or []),
+                )
+            return _upstream_err(GetHoldingsResult, tlog, status, data, retry_after)
         except Exception as exc:
             return _handle_request_exc(GetHoldingsResult, tlog, exc)

@@ -3,15 +3,15 @@
 import logging
 from typing import Literal
 
-import upstox_client
 from fastmcp import FastMCP
 from mcp.types import ToolAnnotations
 from pydantic import BaseModel, Field
 
 from .. import service
+from ..config import CONNECT_TIMEOUT, READ_TIMEOUT
 from ..logging_utils import ToolLogger
 from ..schemas.margins import MarginDetailsData, MarginDetailsResult
-from ._helpers import _err, _handle_request_exc
+from ._helpers import _err, _handle_request_exc, _upstream_err
 
 logger = logging.getLogger("upstox-mcp.tools.margins")
 
@@ -59,24 +59,24 @@ def register_margins_tools(mcp: FastMCP) -> None:
             )
 
         try:
-            api_instance = upstox_client.ChargeApi(service.get_service())
-            sdk_instruments = [
-                upstox_client.Instrument(
-                    instrument_key=inst.instrument_key,
-                    quantity=inst.quantity,
-                    product=inst.product,
-                    transaction_type=inst.transaction_type,
-                    price=inst.price,
-                )
-                for inst in instruments
-            ]
-            margin_body = upstox_client.MarginRequest(sdk_instruments)
-            api_response = api_instance.post_margin(margin_body)
-            tlog.success()
-            return MarginDetailsResult(
-                success=True,
-                statusCode=200,
-                data=MarginDetailsData(**api_response.data.to_dict()),
+            body = {
+                "instruments": [
+                    inst.model_dump(exclude_none=True) for inst in instruments
+                ]
+            }
+
+            data, status, retry_after = service.api_request(
+                "POST", "/v2/charges/margin",
+                body=body,
+                timeout=(CONNECT_TIMEOUT, READ_TIMEOUT),
             )
+            if 200 <= status < 300:
+                tlog.success()
+                return MarginDetailsResult(
+                    success=True,
+                    statusCode=status,
+                    data=MarginDetailsData(**data.get("data", {})),
+                )
+            return _upstream_err(MarginDetailsResult, tlog, status, data, retry_after)
         except Exception as exc:
             return _handle_request_exc(MarginDetailsResult, tlog, exc)

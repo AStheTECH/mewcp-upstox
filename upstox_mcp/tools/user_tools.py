@@ -2,7 +2,6 @@
 
 import logging
 
-import upstox_client
 from fastmcp import FastMCP
 from mcp.types import ToolAnnotations
 
@@ -35,14 +34,18 @@ def register_user_tools(mcp: FastMCP) -> None:
         tlog = ToolLogger(logger, "get_profile")
 
         try:
-            api_instance = upstox_client.UserApi(service.get_service())
-            api_response = api_instance.get_profile(api_version="2.0")
-            tlog.success()
-            return ProfileResult(
-                success=True,
-                statusCode=200,
-                data=ProfileData(**api_response.data.to_dict()),
+            data, status, retry_after = service.api_request(
+                "GET", "/v2/user/profile",
+                timeout=(CONNECT_TIMEOUT, READ_TIMEOUT),
             )
+            if 200 <= status < 300:
+                tlog.success()
+                return ProfileResult(
+                    success=True,
+                    statusCode=status,
+                    data=ProfileData(**data.get("data", {})),
+                )
+            return _upstream_err(ProfileResult, tlog, status, data, retry_after)
         except Exception as exc:
             return _handle_request_exc(ProfileResult, tlog, exc)
 

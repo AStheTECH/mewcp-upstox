@@ -4,7 +4,7 @@
     "name": "mewcp-upstox",
     "package": "upstox_mcp",
     "auth": "oauth",
-    "version": "v1.1.0",
+    "version": "v1.2.0",
     "api_base": "https://api.upstox.com"
   },
   "tools": {
@@ -91,7 +91,7 @@
         "register_fn": "register_margins_tools",
         "tools": {
           "get_margin_details": {
-            "endpoint": "POST /charges/margin",
+            "endpoint": "POST /v2/charges/margin",
             "description": "Computes and returns the estimated margin required for a proposed trade of up to 20 instruments. Does not place, modify, or persist any order.",
             "tier": "GET",
             "params": [
@@ -165,7 +165,7 @@
             "schema": { "data": "OrderBookData", "result": "OrderBookResult" }
           },
           "get_trade_history": {
-            "endpoint": "GET /charges/historical-trades",
+            "endpoint": "GET /v2/charges/historical-trades",
             "description": "Retrieves executed trade records for a given date range and optional segment, limited to at most the last 3 financial years.",
             "tier": "GET",
             "params": [

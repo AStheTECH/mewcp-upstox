@@ -1,34 +1,6 @@
 #!/usr/bin/env python3
 """MewCP Upstox MCP Server."""
 
-import sys
-
-if "uuid" not in sys.modules:
-    # upstox-python-sdk unconditionally depends on a defunct PyPI package literally
-    # named "uuid" (Python 2-only, last released ~2009) that shadows Python's built-in
-    # uuid module once installed and breaks pydantic's `from uuid import UUID` with a
-    # SyntaxError (invalid decimal literal on legacy `1<<32L` syntax). Force-load the
-    # real standard-library module first so every later `import uuid` — including
-    # inside fastmcp/pydantic below — hits this cached copy instead of the shadow.
-    # Best-effort: if the standard-library file isn't where sysconfig says on some
-    # unusual interpreter layout, fall through to normal import resolution rather
-    # than crash the server with a new error on a platform where the shadow package
-    # may not even be present.
-    try:
-        import importlib.util
-        import sysconfig
-
-        _stdlib_uuid_path = f"{sysconfig.get_path('stdlib')}/uuid.py"
-        _spec = importlib.util.spec_from_file_location("uuid", _stdlib_uuid_path)
-        if _spec is not None and _spec.loader is not None:
-            _stdlib_uuid = importlib.util.module_from_spec(_spec)
-            _spec.loader.exec_module(_stdlib_uuid)
-            sys.modules["uuid"] = _stdlib_uuid
-    except Exception as _guard_exc:
-        # Logging isn't configured yet this early in the file — stderr is the only
-        # channel available, but a swallowed failure here must still be visible.
-        print(f"uuid shadow guard skipped: {_guard_exc!r}", file=sys.stderr)
-
 import logging
 
 from fastmcp import FastMCP

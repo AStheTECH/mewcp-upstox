@@ -4,7 +4,6 @@ import logging
 from typing import Any
 
 import requests
-import upstox_client
 from fastmcp_credentials import get_credentials
 
 from .config import UPSTOX_API_BASE, CONNECT_TIMEOUT, READ_TIMEOUT
@@ -17,12 +16,6 @@ def _get_credential() -> str:
     if not cred.access_token:
         raise ValueError("No OAuth access token available in credentials")
     return cred.access_token
-
-
-def get_service() -> upstox_client.ApiClient:
-    configuration = upstox_client.Configuration()
-    configuration.access_token = _get_credential()
-    return upstox_client.ApiClient(configuration)
 
 
 def _auth_headers() -> dict[str, str]:

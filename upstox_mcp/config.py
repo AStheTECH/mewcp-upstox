@@ -3,7 +3,7 @@
 import logging
 import os
 
-SERVER_VERSION = "v1.1.0"
+SERVER_VERSION = "v1.2.0"
 BREAKING_CHANGES: list[dict] = []
 
 # OAuth server, but Upstox's OAuth docs define no `scope` parameter on either the

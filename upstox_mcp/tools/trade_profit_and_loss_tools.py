@@ -2,12 +2,12 @@
 
 import logging
 
-import upstox_client
 from fastmcp import FastMCP
 from mcp.types import ToolAnnotations
 from pydantic import Field
 
 from .. import service
+from ..config import CONNECT_TIMEOUT, READ_TIMEOUT
 from ..logging_utils import ToolLogger
 from ..schemas.trade_profit_and_loss import (
     ProfitLossReportData,
@@ -15,7 +15,7 @@ from ..schemas.trade_profit_and_loss import (
     ReportMetaDataData,
     ReportMetaDataResult,
 )
-from ._helpers import _handle_request_exc
+from ._helpers import _handle_request_exc, _upstream_err
 
 logger = logging.getLogger("upstox-mcp.tools.trade_profit_and_loss")
 
@@ -64,22 +64,28 @@ def register_trade_profit_and_loss_tools(mcp: FastMCP) -> None:
         tlog = ToolLogger(logger, "get_report_meta_data")
 
         try:
-            api_instance = upstox_client.TradeProfitAndLossApi(service.get_service())
-            kwargs = {}
+            params: dict[str, str] = {
+                "segment": segment,
+                "financial_year": financial_year,
+            }
             if from_date is not None:
-                kwargs["from_date"] = from_date
+                params["from_date"] = from_date
             if to_date is not None:
-                kwargs["to_date"] = to_date
-            api_response = api_instance.get_trade_wise_profit_and_loss_meta_data(
-                segment, financial_year, "2.0", **kwargs
+                params["to_date"] = to_date
+
+            data, status, retry_after = service.api_request(
+                "GET", "/v2/trade/profit-loss/metadata",
+                params=params,
+                timeout=(CONNECT_TIMEOUT, READ_TIMEOUT),
             )
-            tlog.success()
-            raw = api_response.to_dict()
-            return ReportMetaDataResult(
-                success=True,
-                statusCode=200,
-                data=ReportMetaDataData(**(raw.get("data") or {})),
-            )
+            if 200 <= status < 300:
+                tlog.success()
+                return ReportMetaDataResult(
+                    success=True,
+                    statusCode=status,
+                    data=ReportMetaDataData(**(data.get("data") or {})),
+                )
+            return _upstream_err(ReportMetaDataResult, tlog, status, data, retry_after)
         except Exception as exc:
             return _handle_request_exc(ReportMetaDataResult, tlog, exc)
 
@@ -132,25 +138,33 @@ def register_trade_profit_and_loss_tools(mcp: FastMCP) -> None:
         tlog = ToolLogger(logger, "get_profit_loss_report")
 
         try:
-            api_instance = upstox_client.TradeProfitAndLossApi(service.get_service())
-            kwargs = {}
+            params: dict[str, str] = {
+                "segment": segment,
+                "financial_year": financial_year,
+                "page_number": str(page_number),
+                "page_size": str(page_size),
+            }
             if from_date is not None:
-                kwargs["from_date"] = from_date
+                params["from_date"] = from_date
             if to_date is not None:
-                kwargs["to_date"] = to_date
-            api_response = api_instance.get_trade_wise_profit_and_loss_data(
-                segment, financial_year, page_number, page_size, "2.0", **kwargs
+                params["to_date"] = to_date
+
+            data, status, retry_after = service.api_request(
+                "GET", "/v2/trade/profit-loss/data",
+                params=params,
+                timeout=(CONNECT_TIMEOUT, READ_TIMEOUT),
             )
-            tlog.success()
-            raw = api_response.to_dict()
-            metadata = raw.get("metadata") or {}
-            return ProfitLossReportResult(
-                success=True,
-                statusCode=200,
-                data=ProfitLossReportData(
-                    entries=raw.get("data") or [],
-                    meta_data=metadata.get("page"),
-                ),
-            )
+            if 200 <= status < 300:
+                tlog.success()
+                metadata = data.get("metadata") or {}
+                return ProfitLossReportResult(
+                    success=True,
+                    statusCode=status,
+                    data=ProfitLossReportData(
+                        entries=data.get("data") or [],
+                        meta_data=metadata.get("page"),
+                    ),
+                )
+            return _upstream_err(ProfitLossReportResult, tlog, status, data, retry_after)
         except Exception as exc:
             return _handle_request_exc(ProfitLossReportResult, tlog, exc)
